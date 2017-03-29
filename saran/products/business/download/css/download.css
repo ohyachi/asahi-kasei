@@ -1,0 +1,52 @@
+/* download
+========================================*/
+/* common */
+
+body.download #pageBody{background:url(/saran/products/business/common/images/bg_dot.png) repeat-x top;}
+article .pageHeader h1:before{content:''; background:url(/saran/products/business/common/images/icon_download.png) no-repeat; width:30px; height:24px; display:inline-block; margin-right:17px; vertical-align:middle;}
+article section{margin-bottom:55px;}
+article section h2{font-size:24px; font-weight:bold; line-height:1.5; position:relative; color:#0059ae; margin-bottom:30px; padding:0 0 10px 20px; border-bottom:1px dotted #0059ae;}
+article section h2:before{width:5px; height:26px; background:#0059ae; position:absolute; left:0; top:50%; margin-top:-17px; content:'';}
+@media screen and (max-width: 767px){
+body.download #pageBody{background:url(/saran/products/business/common/images/bg_dot.png) repeat-x 0 -18px;}
+article.download .pageHeader{margin-bottom:46px;}
+article.download .pageHeader h1:before{width:48px; height:19px; background-size:48px auto;}
+article.download section{margin-bottom:30px;}
+article.download section h2{font-size:20px; padding-left:0; margin-bottom:8px;}
+article.download section h2:before{width:3px; height:16px; margin-top:-8px; left:-10px;}
+}
+
+/* download index */
+article.download .pageHeader{margin-bottom:50px;}
+article.download.index{padding-bottom:0px;}
+article.download.index section:last-child{margin-bottom:35px;}
+article.download.index section div a:hover { opacity: 0.7;}
+article.download.index section div dl{float:left; width:240px; padding:0 29px; text-align:center;}
+article.download.index section div dl dt+dd{font-size:14px; line-height:33px;}
+article.download.index section div dl dd p {line-height: 1.5em !important; margin-bottom: 10px;}
+article.download.index section div dl dd+dd{font-size:15px; font-weight:bold;}
+article.download.index section div dl dd:nth-child(3){color:#0059ae; width:180px; line-height:34px; display:block; background:url(/saran/products/business/common/images/icon_download.png) 8px center no-repeat; background-size:15px 12px; border:1px solid #0059ae; border-radius:2px; color:#0059ae;}article.download.index section div dl dd+dd a:hover{color:#0059ae; text-decoration:none;}
+article.download.index section:after,
+article.download.index section div:after{content:""; clear:both; display:block;}
+article.download.index section div.half{width:464px; float:left;}
+article.download.index section div.half.rt{width:467px; margin-left:29px;}
+
+@media screen and (max-width: 767px){
+article.download .pageHeader{margin-bottom:15px;}
+article.download .pageHeader h1{font-size:18px;}
+article.download .pageHeader h1:before{content:''; background:url(/saran/products/business/common/images/icon_download.png) no-repeat; width:18px; height:17px; margin-right:17px;background-size:17px auto;}
+article.download section{margin:0px;}
+article.download section h2{padding-left:15px; padding-bottom:10px; font-size:15px;}
+article.download section h2:before{left:0px; top:10px; height:24px;}
+article.download.index section div dl{float:left; width:48%; padding:0; text-align:center; margin:0 1% 5%;}
+article.download.index section div dl:nth-child(2){margin-right:0px;}
+article.download.index section:last-child{margin-bottom:0px;}
+article.download.index section div dl dt+dd{font-size:12px; line-height:1.3; padding:5px 0 4px;}
+article.download.index section div dl dd+dd{font-size:14px; font-weight:bold;}
+article.download.index section div dl dd:nth-child(3){color:#0059ae; width:100%; line-height:34px; display:block; background-size:15px 12px; border:1px solid #0059ae; border-radius:2px; color:#0059ae; padding-left:10px;}
+article.download.index section div dl dd+dd a:hover{color:#0059ae; text-decoration:none;}
+article.download.index section div.half.rt,
+article.download.index section div.half{width:100%; float:none;}
+article.download.index section div.half.rt{margin-left:0px;}
+
+}

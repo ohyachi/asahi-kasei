@@ -1,0 +1,155 @@
+/* lineup
+========================================*/
+/* common */
+
+body.lineup #pageBody{background:url(/saran/products/business/common/images/bg_dot.png) repeat-x top;}
+article .pageHeader h1:before{content:''; background:url(/saran/products/business/common/images/icon_products.png) no-repeat; width:66px; height:25px; display:inline-block; margin-right:10px; vertical-align:middle;}
+article section{margin-bottom:30px;}
+article section h2{font-size:24px; font-weight:bold; padding-left:20px; line-height:1.5; position:relative; color:#0059ae; margin-bottom:16px;}
+article section h2:before{width:5px; height:26px; background:#0059ae; position:absolute; left:0; top:50%; margin-top:-13px; content:'';}
+@media screen and (max-width: 767px){
+body.lineup #pageBody{background:url(/saran/products/business/common/images/bg_dot.png) repeat-x 0 -18px;}
+article.lineup .pageHeader h1:before{width:48px; height:19px; background-size:48px auto;}
+article.lineup section{margin-bottom:30px;}
+article.lineup section h2{font-size:20px; padding-left:0; margin-bottom:8px;}
+article.lineup section h2:before{width:3px; height:16px; margin-top:-8px; left:-10px;}
+}
+
+/* index */
+article.lineup section{margin-bottom:20px;}
+article.lineup section a{text-decoration:none;}
+article.lineup section ul.imgList{position:relative; border-radius:5px; clear:both; overflow:hidden; background:#ccc;}
+article.lineup section ul.imgList:after{content:''; display:block; clear:both;}
+article.lineup section ul.imgList li{width:25%; float:left; list-style:none; text-align:center; padding:13px; border:1px #fff solid; border-width:0 1px 1px 0; height:176px;}
+article.lineup section ul.imgList li:nth-child(4n){border-right:0 none;}
+article.lineup section ul.plainList{position:relative; border-radius:5px; clear:both; overflow:hidden; background:#ccc;}
+article.lineup section ul.plainList:after{content:''; display:block; clear:both;}
+article.lineup section ul.plainList li{width:25%; float:left; list-style:none; text-align:center; padding:13px; border:1px #fff solid; border-width:0 1px 1px 0;}
+article.lineup section ul.plainList li:nth-child(4n){border-right:0 none;}
+article.lineup section ul.imgList li a{display:block;}
+article.lineup section ul.imgList li a:hover{opacity:.7;}
+article.lineup section ul.imgList li figure{position:relative;}
+article.lineup section ul.imgList li figure img{display:block;}
+article.lineup section ul.imgList li figcaption{position:absolute; left:0; bottom:10px; width:100%;}
+article.lineup section ul.imgList li figcaption:before{content:''; display:inline-block; background:url(/saran/products/business/lineup/images/icon_lineup_sw.png) no-repeat; width:5px; height:9px; vertical-align:middle; margin-right:5px; position:relative; top:-2px;}
+article.lineup section.saran ul.imgList{background:#e1efe2;}
+article.lineup section.cookper ul.imgList{background:#fef2e5;}
+article.lineup section.ziploc ul.imgList{background:#e6f0fe;}
+article.lineup.index section.greasetrap ul.imgList{background:#fffae3;}
+article.lineup.index section.saran ul.imgList{background:url(/saran/products/business/lineup/images/bg_g_sw_indx.png) center top no-repeat #e1efe2;}
+article.lineup.index section.cookper ul.imgList{background:url(/saran/products/business/lineup/images/bg_g_cp_indx.png) right bottom no-repeat #fef2e5;}
+article.lineup.index section.ziploc ul.imgList{background:url(/saran/products/business/lineup/images/bg_g_zl_indx.png) right bottom no-repeat #e6f0fe;}
+article.lineup section.papers ul.plainList{background:#deedfc;}
+article.lineup section.papers ul.plainList li a:before{content:''; display:inline-block; background:url(/saran/products/business/lineup/images/icon_lineup_sw.png) no-repeat; width:5px; height:9px; vertical-align:middle; margin-right:5px; position:relative; top:-2px;}
+@media screen and (max-width: 767px){
+article.lineup section ul.imgList li{width:50%; padding:8px; height:auto; font-size:12px;}
+article.lineup section ul.imgList li:nth-child(even){border-right:0 none;}
+article.lineup section ul.imgList li.empty{display:none;}
+article.lineup section ul.imgList li figcaption{bottom:5px;}
+article.lineup section ul.imgList li figcaption:before{margin-right:2px;}
+article.lineup section ul.plainList li{width:50%; padding:15px 8px; font-size:12px;}
+article.lineup.index section.saran ul.imgList,
+article.lineup.index section.cookper ul.imgList,
+article.lineup.index section.ziploc ul.imgList{background-image:none;}
+article.lineup section.greasetrap ul.imgList{background:#fffae3;}
+article.lineup section.papers ul.plainList li a:before{margin-right:5px;}
+}
+
+/* individual product */
+article.lineup .mainVisual{margin-bottom:30px; clear:both;}
+article.lineup h3{font-size:20px; font-weight:bold; padding:0 0 10px 25px; margin-bottom:20px; border-bottom:1px #0059ae solid;}
+article.lineup h3.lineup{padding-bottom:0; border:none;}
+article.lineup .features{clear:both; margin-bottom:30px;}
+article.lineup .features:after{content:''; display:block; clear:both;}
+article.lineup .features ul{padding:0 25px; float:left; width:630px;}
+article.lineup .features ul li{font-size:16px; line-height:1.6; margin-bottom:.5em; list-style:none; padding-left:1.25em; position:relative;}
+article.lineup .features ul li:before{content:'● '; font-size:12px; position:absolute; left:0; top:.25em;}
+article.lineup .features .links{float:right;}
+article.lineup .features .links div{margin-bottom:10px;}
+article.lineup .features .links a{display:block;}
+article.lineup .features .links a:hover{opacity:.7;}
+article.lineup .features .links .catalog a{border:2px #0059ae solid; border-radius:5px; height:52px; line-height:48px; background:url(/saran/products/business/common/images/icon_download.png) no-repeat 10px center; text-align:center; font-weight:bold; font-size:16px; color:#0059ae;}
+article.lineup .variations{margin-bottom:30px;}
+article.lineup .variations table{width:100%;}
+article.lineup .variations table th,
+article.lineup .variations table td{border:1px #a1a1a1 solid; padding:8px 5px; text-align:center; font-size:16px;}
+article.lineup .variations table th.spec,
+article.lineup .variations table td.spec{font-size:14px;}
+article.lineup .variations table thead th{background:#f5f4f4;}
+article.lineup .variations table tbody th{background:#e8f3fe; width:24%;}
+article.lineup .variations table tbody td{width:19%;}
+article.lineup .variations table tbody td span {font-size: 12px; line-height: 1.0em !important;}
+@media screen and (max-width: 767px){
+article.lineup .mainVisual{margin:0 -20px 20px;}
+article.lineup h3{font-size:18px; padding:0 20px 10px 20px; margin:0 -20px 10px;}
+article.lineup .features{margin-bottom:20px;}
+article.lineup .features ul{padding:0; float:none; width:auto; margin-bottom:15px;}
+article.lineup .features ul li{font-size:14px; margin-bottom:.25em; padding-left:1em;}
+article.lineup .features .links{float:none; padding:0 15px;}
+article.lineup .features .links .catalog a{height:44px; line-height:40px; background-position:15px center;}
+article.lineup .variations{margin:0 -20px 20px 0; } 
+article.lineup .variations table{width:600px;}
+article.lineup .variations table th,
+article.lineup .variations table td{padding:4px 2px; font-size:10px;}
+article.lineup .variations table th.spec,
+article.lineup .variations table td.spec{font-size:10px;}
+article.lineup .variations table tbody th{width:20%; padding:10px;}
+article.lineup .variations table tbody td{width:20%;}
+
+.cloneTo{box-shadow:7px 0px 16px -10px rgba(0,0,0,.4);}
+
+}
+
+/* クックパー別注品追加 */
+.custom_size { padding: 0 20px 25px 20px; line-height: 1.6em;}
+.custom_size h4 {color: #033792; font-size:16px; font-weight: bold; margin-bottom: 10px}
+.custom_size .custom_text {width: 50%; float: left;}
+.custom_size .custom_img {width: 50%; float: right; text-align:center;}
+.custom_size2 { padding: 0 20px 50px 20px; line-height: 1.6em; clear: both;}
+.custom_size2 h4 {color: #033792; font-size:16px; font-weight: bold; margin-bottom: 10px}
+.custom_size2 .custom_text {width: 30%; float: left;}
+.custom_size2 .custom_table {width: 65%; float: right;}
+.custom_size2 .custom_table table {width: 100%; background-color:#FFFDDA;}
+.custom_size2 .custom_table table tr {}
+.custom_size2 .custom_table table tr td {border:#717070 1px solid; text-align:center; }
+@media screen and (max-width: 767px){
+ .custom_size { padding: 0 5px 25px 5px;}
+ .custom_size .custom_text {width: 100%; }
+ .custom_size .custom_img {width: 100%;  text-align:center;}
+ .custom_size2 .custom_text {width: 100%;}
+ .custom_size2 .custom_table {width: 100%;}
+}
+
+/* 食品用耐油耐水紙追加 */
+.endurance_title { position: relative;}
+.endurance_title ul { list-style: none; position: absolute; top:120px; left:70px; }
+.endurance_title ul li { font-size:18px; font-weight: bold; margin-bottom: 5px;}
+.endurance_title ul li a { color: #0659AB;}
+.endurance_title ul li a:hover { text-decoration: underline;}
+.endurance_table {margin-bottom: 50px; padding: 0 35px 0 35px;}
+.endurance_table p {font-size: 16px; line-height: 1.8em;}
+.endurance_table table { width: 100%; background-color:#FFFFFF; text-align:center; margin-top: 10px}
+.endurance_table table th {background-color: #FFE330; border:#DDDDDD 1px solid; text-align:center; padding: 1% 0 1% 0;}
+.endurance_table table td { border:#DDDDDD 1px solid; padding: 1% 0 1% 0;}
+.endurance_table .table01 th {width: 25%;}
+.endurance_table .table02 td {width: 10%;}
+.endurance_table .table03 td {width: 33.3%;}
+.endurance_table .table04 th {width: 50%;}
+.endurance_table p.tabletext01 {text-align: right; font-size: 12px;}
+@media screen and (max-width: 767px){
+	.endurance_title img {display: none;}
+	.endurance_title ul { list-style: none; position: relative; top:0px; left:0px; background: #DDEDFC; padding: 20px; }
+	.endurance_title ul li { font-size:16px; font-weight: bold; margin-bottom: 5px;}
+	.endurance_table {margin-bottom: 50px; padding: 0 10px 0 10px;}
+}
+
+
+.zlcttext {font-size: 16px; font-weight: bold; color: #0059AE;}
+
+
+/* net */
+article.lineup section .enlarge{display:none;}
+@media screen and (max-width: 767px){
+article.lineup section .enlarge{display:block; padding:10px 10px 0; text-align:center;}
+}
+.netbox { margin-bottom: 20px;}

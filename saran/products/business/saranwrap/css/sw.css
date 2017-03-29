@@ -1,0 +1,255 @@
+@charset "utf-8";
+/* common */
+#pageBody header.brand{width:960px; height:50px; margin:0 auto; clear:both;}
+#pageBody header.brand p{float:left; padding:7px 0;}
+#pageBody header.brand p img{display:block;}
+#pageBody header.brand nav{width:772px; height:50px; float:right;}
+#pageBody header.brand nav ul{padding:10px 0; height:50px;}
+#pageBody header.brand nav ul li{width:193px; height:30px; line-height:30px; float:left; border-right:1px #014099 solid; text-align: center; font-size:14px; font-weight:bold; padding:0 3px;}
+#pageBody header.brand nav ul li:first-child{border-left:1px #014099 solid;}
+#pageBody header.brand nav ul li a{color:#014099; display:block; width:100%; height:30px; box-sizing:content-box;}
+#pageBody header.brand nav ul li a:hover,
+#pageBody header.brand nav ul li a.active{border-bottom:3px #014099 solid; text-decoration:none;}
+@media screen and (max-width: 767px){
+#pageBody{padding-bottom:0;}
+#pageBody header.brand{width:100%; height:auto; display:none;}
+#pageBody header.brand p{float:none; padding:10px 0; background:#f5f5f5;}
+#pageBody header.brand p img{margin:0 auto;}
+#pageBody header.brand nav{width:100%; height:auto; float:none;}
+#pageBody header.brand nav ul{padding:0 0 1px; width:100%; height:auto; clear:both;}
+#pageBody header.brand nav ul:after{content:''; display:block; clear:both;}
+#pageBody header.brand nav ul li{width:50%; height:40px; line-height:40px; border:0 none; padding:1px;}
+#pageBody header.brand nav ul li:first-child{border-left:none;}
+#pageBody header.brand nav ul li a{color:#fff; background:#014099; display:block; width:100%; height:38px;}
+#pageBody header.brand nav ul li a:hover{border-bottom:none 0;}
+#pageBody header.brand nav ul li a.active{background:#fff; color:#014099;}
+}
+
+/* top */
+article.brand.sw{background:url(/saran/products/business/saranwrap/images/bg_sw_content.jpg) no-repeat left top #009740; padding:35px; margin-bottom:50px;}
+article.brand.sw header{margin:0 -35px; padding:0 0 0 40px; margin-bottom:10px; height:380px;}
+article.brand.sw header h1{position:relative; width:910px; height:364px; z-index:0;}
+article.brand.sw header p{width:360px; height:40px; position:absolute; left:60px; top:330px; z-index:1;}
+article.brand.sw header p a{display:block; height:40px; line-height:36px; color:#fff; background:url(/saran/products/business/common/images/icon_arr_fwd_white.png) no-repeat 10px center; text-align:center; border:2px #fff solid; border-radius:5px; text-decoration:none;}
+article.brand.sw header p a:hover{background-color:rgba(255,255,255,.3);}
+article.brand.sw header figure{position:absolute; right:20px; top:35px; width:460px; height:360px; z-index:0;}
+article.brand.sw section{background:#fff; margin-bottom:50px; position:relative;}
+article.brand.sw section h2{background:#fce803; padding:0 25px; height:36px; line-height:36px; border-radius:18px; color:#009740; font-size:16px; font-weight:bold; display:inline-block; position:absolute; left:15px; top:-18px;}
+article.brand.sw section.lineup{background:transparent;}
+article.brand.sw section.lineup ul.swLineup{clear:both; overflow:hidden;}
+article.brand.sw section.lineup ul.swLineup:after{content:''; display:block; clear:both;}
+article.brand.sw section.lineup ul.swLineup li{width:25%; float:left; list-style:none; background:#fff; border-radius:5px; overflow:hidden; border:1px #009740 solid; text-align:center;}
+article.brand.sw section.lineup ul.swLineup li img{display:block;}
+article.brand.sw section.lineup ul.swLineup li figcaption{background:#e4f9ed; padding:13px; text-align:center;}
+article.brand.sw section.feature{padding:50px 25px;}
+article.brand.sw section.feature div{background:#e4f9ed;}
+article.brand.sw section.feature div h3{background:#009740; padding:10px; text-align:center; font-size:18px; font-weight:bold; color:#fff;}
+article.brand.sw section.feature div ul{font-size:16px; padding:15px 20px; list-style:none;}
+article.brand.sw section.feature div ul li{position:relative; padding-left:16px; margin-bottom:.25em;}
+article.brand.sw section.feature div ul li:before{content:'●'; font-size:12px; color:#009740; position:absolute; left:0; top:.25em;}
+article.brand.sw section.feature .barrier{width:240px; float:left;}
+article.brand.sw section.feature .endurance{width:570px; float:right;}
+article.brand.sw section.feature .links{clear:both; padding-top:35px;}
+article.brand.sw section.feature .links ul{clear:both; height:145px;}
+article.brand.sw section.feature .links ul:after{clear:both; content:''; display:block;}
+article.brand.sw section.feature .links ul li{width:265px; float:left; height:145px;}
+article.brand.sw section.feature .links ul li:first-child{margin-right:22px;}
+article.brand.sw section.feature .links ul li:last-child{float:right;}
+article.brand.sw section.feature .links ul li a{border:3px #009740 solid; border-radius:5px; padding:20px 0; text-align:center; font-size:18px; font-weight:bold; display:block; height:145px; color:#009740; text-decoration:none; background-position:center bottom; background-repeat:no-repeat; position:relative;}
+article.brand.sw section.feature .links ul li a:after{content:''; position:absolute; left:15px; top:50%; margin-top:-6px; background:url(/saran/products/business/saranwrap/images/icn_link_arr.png) no-repeat; width:8px; height:12px; display:block;}
+article.brand.sw section.feature .links ul li:nth-child(1) a{background-image:url(/saran/products/business/saranwrap/images/bg_sw_prod_feature01.png);}
+article.brand.sw section.feature .links ul li:nth-child(2) a{background-image:url(/saran/products/business/saranwrap/images/bg_sw_pkg_feature02.png);}
+article.brand.sw section.feature .links ul li:nth-child(3) a{background-image:url(/saran/products/business/saranwrap/images/bg_sw_img_feature03.png);}
+article.brand.sw section.feature .links ul li a:hover{opacity:.7;}
+article.brand.sw section.figure{padding:30px 0; text-align:center; margin-bottom:0;}
+article.brand.sw section.figure img{display:block; margin:0 auto;}
+article.brand.sw section.figure .enlarge{display:none;}
+
+/* performance */
+article.brand.sw.pf{padding-top:26px; padding-bottom:37px; margin-bottom:110px;}
+article.brand.sw header.performance{height:137px; margin-bottom:20px;}
+article.brand.sw header.performance h1{font-size:30px; font-weight:bold; color:#fff; display:table-cell; vertical-align:middle; padding-left:27px; height:137px;}
+article.brand.sw header.performance figure{display:table-cell; vertical-align:middle; text-align:right; padding-right:33px; height:129px;}
+article.brand.sw section.filmFig{background:#fefceb; padding:28px 48px 29px 55px; margin-bottom:0px; position:relative; height:501px;}
+article.brand.sw section.filmFig p{position:absolute; top:114px; left:56px; font-size:25px; border:2px solid #0059ae; text-align:center; padding:27px 28px 27px 28px; font-weight:bold; color:#005bac;}
+article.brand.sw section.filmFig .graph{position:absolute; top:28px; right:48px}
+article.brand.sw section.filmFig .caption{position:absolute; top:282px; left:56px;}
+article.brand.sw section.filmtable{padding:30px 18px 23px 18px; margin-bottom:40px;}
+article.brand.sw section.filmtable h2+p{font-size:16px; line-height:1.0; margin:0 0 15px 11px;}
+article.brand.sw section.filmtable table{border-left:1px solid #a1a1a1; border-top:1px solid #a1a1a1; margin-bottom:6px;	}
+article.brand.sw section.filmtable table th,
+article.brand.sw section.filmtable table td{text-align:center;font-size:12px; border-right:1px solid #a1a1a1; border-bottom:1px solid #a1a1a1; padding:13px 9px; width:12.5%;}
+article.brand.sw section.filmtable table thead th{background:#f6e744;}
+article.brand.sw section.filmtable table tbody th{background:#edf6fe;}
+article.brand.sw section.filmtable table tbody td{background:#e8f8e9;}
+article.brand.sw section.filmtable table tbody td:nth-child(3){background:#fffee0; color:#e73300; font-weight:bold}
+article.brand.sw section.filmtable table tbody td:nth-child(2){text-align:left;}
+article.brand.sw section.filmtable table tbody td.tCt{text-align:center;}
+article.brand.sw section.filmtable table tbody td:last-child{width:11%;}
+article.brand.sw section.filmtable table+p{font-size:12px; line-height:1.3;}
+
+
+@media screen and (max-width: 767px){
+article.brand.sw{background-size:480px auto; padding:20px; margin-bottom:0;}
+article.brand.sw header{margin:0; padding:0; padding-bottom:70px; height:auto; position:relative;}
+article.brand.sw header h1{width:100%; height:auto;}
+article.brand.sw header p{width:100%; padding:0; height:40px; top:auto; bottom:10px; left:0;}
+article.brand.sw header figure{position:relative; right:auto; top:auto; width:100%; height:auto;}
+article.brand.sw section{margin-bottom:30px; text-align:center;}
+article.brand.sw section h2{display:inline-block; position:relative; left:auto; top:auto; z-index:1; font-size:14px; line-height:1.5; padding:5px 25px; height:auto;}
+article.brand.sw section.lineup ul.swLineup{position:relative; top:-18px; z-index:0;}
+article.brand.sw section.lineup ul.swLineup li{width:50%;}
+article.brand.sw section.lineup ul.swLineup li figcaption{padding:10px;}
+article.brand.sw section.feature{padding:0px 15px 5px;}
+article.brand.sw section.feature h2{top:-18px; margin-bottom:-26px;}
+article.brand.sw section.feature div{text-align:left;}
+article.brand.sw section.feature div h3{padding:5px; font-size:16px;}
+article.brand.sw section.feature div ul{font-size:14px; padding:10px;}
+article.brand.sw section.feature div ul li{padding-left:12px;}
+article.brand.sw section.feature div ul li:before{font-size:10px; left:0;}
+article.brand.sw section.feature .barrier{width:auto; float:none; margin-bottom:10px;}
+article.brand.sw section.feature .endurance{width:auto; float:none;}
+article.brand.sw section.feature .links{padding-top:15px;}
+article.brand.sw section.feature .links ul{height:auto;}
+article.brand.sw section.feature .links ul li{width:auto; float:none; height:auto; clear:both; margin-bottom:10px;}
+article.brand.sw section.feature .links ul li:first-child{margin-right:0;}
+article.brand.sw section.feature .links ul li:last-child{float:none;}
+article.brand.sw section.feature .links ul li a{border:2px #009740 solid; padding:15px 15px 15px 30px; font-size:14px; height:auto; background:none !important; text-align:left;}
+article.brand.sw section.feature .links ul li br{display:none;}
+article.brand.sw section.feature .links ul li a:hover{opacity:.7;}
+article.brand.sw section.figure{padding:0 10px 10px; text-align:center; margin-bottom:0;}
+article.brand.sw section.figure h2{top:-18px; margin-bottom:-26px;}
+article.brand.sw section.figure img{display:block; margin:0 auto;}
+article.brand.sw section.figure .enlarge{display:block; padding:10px 10px 0; text-align:center;}
+article.brand.sw section.filmtable h2,
+article.brand.sw section.filmFig h2{top:-18px;}
+
+article.brand.sw header.performance h1,
+article.brand.sw header.performance{height:auto;}
+article.brand.sw header.performance{display:block; padding-bottom:0px;}
+article.brand.sw header.performance h1{font-size:24px; display:block; padding-left:0; text-align:center; margin-bottom:20px;}
+article.brand.sw header.performance figure{display:block; text-align:center; padding:0 20px; height:auto;}
+article.brand.sw section.filmtable{padding:10px 15px 15px; margin-bottom:30px;}
+article.brand.sw section.filmtable h2+p{text-align:left; margin-left:0px; font-size:14px; line-height:1.3;}
+article.brand.sw section.filmtable p{text-align:left; margin:8px 0 0 0px; font-size:12px;}
+article.brand.sw section.filmFig{padding:0 10px 15px; height:auto;}
+article.brand.sw section.filmFig p{position:static; top:0px; left:0px; font-size:14px; border:none; border-bottom:2px solid #0059ae; text-align:left; padding:0px; font-weight:bold; color:#005bac; margin-bottom:18px;}
+article.brand.sw section.filmFig p br{display:none;}
+article.brand.sw section.filmFig .graph{position:static; top:auto; right:auto; margin-bottom:10px;}
+article.brand.sw section.filmFig .caption{position:static; top:auto; right:auto; max-width:250px; height:auto;}
+article.brand.sw.pf{margin-bottom:0px; padding:20px; }
+article.brand.sw.pf section{position:relative;}
+article.brand.sw div.flowTable.performance{position:relative; z-index:100; margin-right:-15px;}
+article.brand.sw div.performance table{width:800px; position:relative;} 
+article.brand.sw div.performance table th,
+article.brand.sw div.performance table td{font-size:10px; padding:2px;}
+.cloneTo{box-shadow:7px 0px 16px -10px rgba(0,0,0,.4);}
+}
+
+/* case */
+article.brand.sw.case{padding:27px 39px 35px 36px; margin-bottom:97px} 
+article.brand.sw header.case{height:245px; padding:0 39px 0 36px; margin:0 -39px 0 -36px;} 
+
+article.brand.sw header.case h1{font-size:32px; font-weight:bold; color:#fff; display:table-cell; vertical-align:middle; padding-left:27px; height:129px;}
+article.brand.sw header.case figure{display:table-cell; vertical-align:middle; text-align:right; padding-right:33px; height:129px;}
+article.brand.sw header.case nav{width:100%; background:#fce803; height:40px; margin-top:26px;}
+article.brand.sw header.case nav ul{padding-left:73px;}
+article.brand.sw header.case nav ul li{display:inline-block; vertical-align:middle !important; font-size:14px; font-weight:bold; color:#009740; border-right:1px solid #009740; margin-top:13px;}
+article.brand.sw header.case nav ul li:nth-child(1){width:171px;}
+article.brand.sw header.case nav ul li:nth-child(2){width:129px;}
+article.brand.sw header.case nav ul li:nth-child(3){width:157px;}
+article.brand.sw header.case nav ul li:nth-child(4){width:143px;}
+article.brand.sw header.case nav ul li:nth-child(5){width:143px; border-right:0px;}
+article.brand.sw header.case nav ul li a{color:#009740; background:url(/saran/products/business/saranwrap/images/icon_arr_down_green.png) 16px center no-repeat; padding-left:30px;}
+article.brand.sw header.case nav ul li a:hover{color:#009740;}
+article.brand.sw section.swCase{padding:46px 29px 30px 28px; margin-bottom:44px;}
+article.brand.sw section.swCase figure+figure{margin-bottom:5px;}
+article.brand.sw section.swCase:last-child{margin-bottom:0px;}
+article.brand.sw section.swCase:after{content:""; clear:both; display:block;}
+article.brand.sw section.swCase .caseTxt{float:right; width:412px; margin-left:20px;}
+article.brand.sw section.swCase .caseTxt h3{color:#009740; font-size:20px; font-weight:bold; margin-bottom:18px; line-height:1.4;}
+article.brand.sw section.swCase .caseTxt p{line-height:1.6; font-size:16px;}
+article.brand.sw section.swCase .caseTxt dl{margin-top:20px;}
+article.brand.sw section.swCase .caseTxt dl:after{content:""; display:block; clear:both;}
+article.brand.sw section.swCase .caseTxt dl dt{float:left; width:108px; margin-right:16px;} 
+article.brand.sw section.swCase .caseTxt dl dd{padding-top:20px; line-height:1.4;} 
+article.brand.sw section.swCase .caseTxt .casePoint{color:#ef8701; padding-left:76px; font-size:14px; line-height:1.4; font-weight:bold; background:url(/saran/products/business/saranwrap/images/icon_casepoint.png) left center no-repeat; margin-bottom:20px;} 
+
+@media screen and (max-width: 767px){
+article.brand.sw.case{padding:20px; margin-bottom:0px;}
+article.brand.sw.case div{margin-top:-23px; padding-top:23px;}
+article.brand.sw header.case nav,
+article.brand.sw header.case,
+article.brand.sw header.case h1{height:auto;}
+article.brand.sw header.case h1{font-size:24px; display:block; padding-left:0; text-align:center; margin-bottom:20px;}
+article.brand.sw header.case figure{display:block; text-align:center; padding:0 20px; height:auto;}
+article.brand.sw header.case nav ul li{margin-top:0px; line-height:30px;}
+article.brand.sw header.case nav{text-align:left; margin-top:15px;}
+article.brand.sw header.case nav ul{padding-left:0px; margin-bottom:30px;}
+article.brand.sw header.case nav ul li{border-right:none;}
+article.brand.sw header.case nav ul li a{width:100%; display:block;}
+article.brand.sw header.case nav ul li:nth-child(1),article.brand.sw header.case nav ul li:nth-child(2),
+article.brand.sw header.case nav ul li:nth-child(3),article.brand.sw header.case nav ul li:nth-child(4),
+article.brand.sw header.case nav ul li:nth-child(5){width:100%;}
+article.brand.sw section.swCase h2{top:-16px; text-align:left; } 
+article.brand.sw section.swCase{padding:0px 10px 10px; margin-bottom:40px;}
+article.brand.sw section.swCase figure+figure{margin-bottom:0px;}
+article.brand.sw section.swCase .caseTxt{float:none; width:100%; margin-left:0px; text-align:left;}
+article.brand.sw section.swCase .caseTxt h3{font-size:16px; margin-bottom:10px;}
+article.brand.sw section.swCase .caseTxt h3 br{display:none;}
+article.brand.sw section.swCase .caseTxt p{font-size:14px;}
+article.brand.sw section.swCase .caseTxt p:last-child{margin-bottom:15px;}
+article.brand.sw section.swCase .caseTxt dl{margin:15px 0; }
+article.brand.sw section.swCase .caseTxt dl dt{margin-right:10px;}
+article.brand.sw section.swCase .caseTxt .casePoint{margin-bottom:10px;}
+}
+
+
+/* reason */
+article.brand.sw.re{padding-top:26px; padding-bottom:37px; margin-bottom:110px;}
+article.brand.sw header.reason{height:137px; margin-bottom:20px;}
+article.brand.sw header.reason h1{font-size:30px; font-weight:bold; color:#fff; display:table-cell; vertical-align:middle; padding-left:27px; height:137px;}
+article.brand.sw header.reason figure{display:table-cell; vertical-align:middle; text-align:right; padding-right:33px; height:129px;}
+
+article.brand.sw section.reasonbox{padding:40px 18px 23px 48px; margin-bottom:40px;}
+article.brand.sw section.reasonbox>div {width:375px; float: left; margin-bottom: 40px;}
+article.brand.sw section.reasonbox>div:nth-of-type(odd) {margin-right: 40px;}
+article.brand.sw section.reasonbox>div h3 {color: #009640; font-size: 23px; font-weight: bold; margin-bottom: 15px;}
+article.brand.sw section.reasonbox>div p { font-size: 14px; position: relative;}
+article.brand.sw section.reasonbox>div img { margin-top: 5px; width:375px; border: #D4D2D2 solid 1px;}
+article.brand.sw section.reasonbox>div img.icon { width: auto; position: absolute; top:0px; right: 0px;}
+article.brand.sw section.reasonbox>div.userbox { border: #009640 solid 3px; border-radius: 5px;        /* CSS3草案 */  
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 5px;   /* Firefox用 */  }
+article.brand.sw section.reasonbox>div.userbox h4 {background: #009640; color: #FFFFFF; text-align: center; font-size: 22px; font-weight: bold; padding: 15px 0 15px 0;}
+article.brand.sw section.reasonbox>div.userbox img {margin-top: 30px; margin-bottom: 5px;}
+article.brand.sw section.reasonbox>div.userbox p {text-align: center; color: #00953F;}
+article.brand.sw section.reasonbox>div.userbox p.btn a { display:block; border: #009640 solid 2px; color: #00953F; padding: 10px; margin: 10px 33px 30px 33px; background: #E5F9EE; font-size: 16px; font-weight: bold; border-radius: 5px;        /* CSS3草案 */  
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 5px;   /* Firefox用 */  }
+article.brand.sw section.reasonbox>div.userbox p.btn a:hover {text-decoration: none; opacity: 0.6; }
+ul.case_btn li img { width: auto !important; border: none !important; margin-top: 0px !important; padding-top: 0px !important;}
+ul.case_btn {display: block; list-style: none; width: 300px; margin: 20px auto 0;}
+ul.case_btn li {float: left; font-weight: bold; color: #0D9640; font-size: 16px;}
+ul.case_btn li:first-of-type {width: 107px;}
+ul.case_btn li:last-of-type {width: 193px; padding-left: 10px;}
+
+@media screen and (max-width: 767px){
+article.brand.sw.re{padding:20px; margin-bottom:0px;}
+article.brand.sw.re div{margin-top:-23px; padding-top:23px;}
+article.brand.sw header.reason,
+article.brand.sw header.reason h1{height:auto;}
+article.brand.sw header.reason h1{font-size:24px; display:block; padding-left:0; text-align:center; margin-bottom:20px;}
+article.brand.sw header.reason figure{display:block; text-align:center; padding:0 20px; height:auto;}
+article.brand.sw section.reasonbox{padding:25px 15px 0 15px; margin-bottom:30px; margin-top: -70px;}
+article.brand.sw section.reasonbox>div {width:100% !important; float: left; margin-bottom: 40px;}
+article.brand.sw section.reasonbox>div img {width: 100% !important;}
+	article.brand.sw section.reasonbox>div img.icon { width: auto !important; position: absolute; top:0px; right: 0px;}
+article.brand.sw section.reasonbox>div.userbox img {width: 90%;}
+article.brand.sw section.reasonbox>div.userbox h4 {margin-top: 0px; line-height: 0;}
+article.brand.sw section.reasonbox>div.userbox {padding-top: 0px}
+	ul.case_btn {display: block; list-style: none; width: 90%; margin: 20px auto 0;}
+	ul.case_btn li:first-of-type {width: 30%;}
+    ul.case_btn li:last-of-type {width: 70%; padding-left: 10px;}
+}
+

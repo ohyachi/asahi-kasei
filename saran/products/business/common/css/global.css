@@ -1,0 +1,289 @@
+@charset "utf-8";
+/* INITIALIZE
+2013.11.10 Reset CSS including HTML5 tags (with box-sizing to border-box)
+Masayuki Fukumoto (OSSI Inc.)
+==================================================== */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form, label,legend,table,
+caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,main,summary,time,mark,audio,video,a{margin:0; padding:0; border:0; font-size:100%; background:transparent; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,main{display:block;}
+nav ul{list-style:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:''; content:none;}
+pre,code,kbd,samp{font-family:monospace,monospace; font-size:inherit;}
+table{border-collapse:collapse; border-spacing:0;}
+img{border:0;}
+address,caption,cite,code,dfn,em,th,dt,var,i{font-style:normal; font-weight:normal;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%; font-weight:normal;}
+sup{vertical-align:text-top; font-size:75%;}
+sub{vertical-align:text-bottom; font-size:75%;}
+input,textarea,select,button{vertical-align:middle; font-family:inherit; font-size:inherit; font-weight:inherit; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box;}
+a{outline:none;}
+audio:not([controls]){display:none;}
+time{display:inline;}
+[hidden]{display:none;}
+input::-ms-clear,input::-ms-reveal,input:focus::-ms-clear,input:focus::-ms-reveal{visibility:hidden; display:none;}
+button::-moz-focus-inner,input[type="reset"]::-moz-focus-inner,input[type="button"]::-moz-focus-inner,input[type="submit"]::-moz-focus-inner,input[type="file"]>input[type="button"]::-moz-focus-inner{padding:0; border:0;}
+img { -ms-interpolation-mode: bicubic; }
+button{cursor:pointer;}
+body{height:100%; font-size:14px; line-height:1.3; font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro","メイリオ", Meiryo, sans-serif; color:#010101;}
+.isIE body{font-family:"メイリオ", Meiryo,"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;}
+
+/*
+.isAndroi body{font-family:"Droid Sans",Roboto,Verdana, sans-serif;}
+*/
+
+
+/* anchor
+========================================*/
+a:link{color:#000; text-decoration:none;}
+a:visited{color:#000; text-decoration:none;}
+a:hover{color:#000; text-decoration:underline;}
+a:active{color:#1ea3c9; text-decoration:none;}
+a:before,
+a:after{}
+a.phoneLink{pointer-events:none;}
+
+/* site header
+========================================*/
+#siteHeader{position:relative; z-index:102; border-top:2px solid #0059ae;}
+#siteHeader .inner{width:960px; margin:0 auto; padding:16px 0 16px 23px; clear:both;}
+#siteHeader .inner:after{content:''; display:block; clear:both}
+#siteHeader .inner .siteID{float:left;}
+#siteHeader .inner ul{float:right; width:375px; height:42px;}
+#siteHeader .inner ul li{float:left; height:42px; list-style:none; font-weight:bold; text-align:center;}
+#siteHeader .inner ul li:first-child{width:148px; margin-right:10px;}
+#siteHeader .inner ul li:last-child{width:206px;}
+#siteHeader .inner ul li a{display:block; line-height:38px; border:2px #e61b11 solid; border-radius:4px; color:#e61b11;}
+#siteHeader .inner ul li a:before{content:''; display:inline-block; vertical-align:middle; margin-right:10px; position:relative; top:-1px;}
+#siteHeader .inner ul li:first-child a:before{background:url(/saran/products/business/common/images/icon_head_contact.png) no-repeat 0 0; width:24px; height:18px;}
+#siteHeader .inner ul li:last-child a:before{background:url(/saran/products/business/common/images/icon_head_download.png) no-repeat 0 0; width:20px; height:16px;}
+#siteHeader .inner ul li a:hover{text-decoration:none; opacity:.7;}
+
+#global{background:#0059ae; height:50px;}
+#global ul{width:960px; margin:0 auto; position:relative;}
+#global ul:after{content:''; position:absolute; right:0px; top:11px; background:#79a6d0; width:1px; height:26px;}
+#global ul li{float:left; position:relative; width:240px; text-align:center; font-size:15px; padding:10px 0 10px 10px; font-weight:bold;}
+#global ul li:before{content:''; position:absolute; left:0; top:12px; background:#79a6d0; width:1px; height:26px;}
+#global ul li a{width:220px; line-height:30px; display:block; color:#fff; text-decoration:none;}
+#global ul li ul{width:237px; background-color:rgba(255,255,255,0.95); padding:10px 0; font-size:14px; position:absolute; left:1px; top:50px; display:none;}
+#global ul li ul li{float:none; text-align:left; width:100%; font-size:13px; padding:0;}
+#global ul li ul li a{color:#0059ae; width:100%;line-height:1.3; padding:8px 8px 8px 25px; background:url(/saran/products/business/common/images/icon_arr_fwd_blue.png) 15px .9em no-repeat;}
+@media screen and (min-width: 768px){
+#global ul li a:hover{background-color:#e6eef6; color:#0059ae; text-decoration:none;}
+#global ul li ul li a:hover{color:#0059ae; text-decoration:underline; background-color:transparent;}
+
+body.top #global ul li.top > a,
+body.brand #global ul li.lineup > a,
+body.about #global ul li.about > a,
+body.lineup #global ul li.intro > a,
+body.lineup #use ul li.use > a{background-color:#e6eef6; color:#0059ae;}
+}
+
+
+
+#global ul li ul:after,
+#global ul li ul li:before{display:none;}
+#global ul li ul li ul{display:none;}
+#siteHeader .toggle{display:none;}
+
+/* site footer
+========================================*/
+#siteFooter{position:relative; z-index:101; background:#0059ae;}
+#siteFooter .inner{width:960px; margin:0 auto; position:relative; clear:both; min-height:360px;}
+#siteFooter .inner:after{content:''; clear:both; display:block;}
+#siteFooter nav{padding:60px 0 41px 0; color:#fff; width:600px;}
+#siteFooter nav dl{width:192px; float:left; color:#fff; margin:0 19px 27px 0px;}
+#siteFooter nav dl:nth-child(even){margin-right:0px;}
+#siteFooter nav dl:nth-child(3){clear:both;}
+#siteFooter nav dl a{color:#fff; text-decoration:none;}
+#siteFooter nav dl a:hover{color:#fff; text-decoration:underline;}
+#siteFooter nav dl dt{font-size:14px; font-weight:bold; border-bottom:1px solid #81abd2; position:relative; margin-bottom:11px; padding:0 0 11px 10px; line-height:1.0;}
+#siteFooter nav ul li:before,
+#siteFooter nav dl dt:before{content:""; position:absolute; left:0px; top:2px; background:#fff; height:11px; width:2px;}
+#siteFooter nav dl dd{position:relative; font-size:12px; margin-bottom:5px; display:list-item; margin-left:2em;}
+#siteFooter nav ul{width:157px; list-style:none; font-weight:bold; position:absolute; top:59px; left:425px;}   
+#siteFooter nav ul li{padding-left:10px; line-height:1.0; margin-bottom:16px; position:relative;}
+#siteFooter nav ul li a{color:#fff;}
+#siteFooter .contact{position:absolute; right:0px; top:59px; width:350px; background:#fff; border-radius:3px; color:#e30101; padding-bottom:20px;}
+#siteFooter .contact h2,
+#siteFooter .contact h3{text-align:center; font-size:15px; font-weight:bold;}
+#siteFooter .contact h2{background:#e30101; color:#fff; padding:7px 0; border-radius:3px 3px 0 0;}
+#siteFooter .contact h3{margin:12px 0 4px;}
+#siteFooter .contact h3:before{content:''; width:14px; height:14px; display:inline-block; margin-right:5px; background:url(/saran/products/business/common/images/icon_foot_tel.png) left center no-repeat; position:relative; top:2px;}
+#siteFooter .contact dl,
+#siteFooter .contact p{padding:0px 25px;}
+#siteFooter .contact dl dt{font-size:15px; border-radius:4px; line-height:34px; width:34px; float:left; clear:both; color:#fff; background:#e30101; text-align:center; font-size:14px; font-weight:bold;}
+#siteFooter .contact dl dd{font-size:36px; line-height:34px; font-weight:bold; font-weight:800; letter-spacing:-0.025em; margin-bottom:6px; padding-left:40px; font-family:Arial, Helvetica, sans-serif;}
+#siteFooter .contact p{font-size:12px; line-height:1.0; margin:5px 0 0; font-weight:bold;}
+#siteFooter .contact p.mailBtn{padding:0 25px; margin-top:10px;}
+#siteFooter .contact p.mailBtn a{color:#fff; background:url(/saran/products/business/common/images/icon_foot_mail.png) 12px center no-repeat #e30101; line-height:43px;  border-radius:5px; font-size:15px; text-align:center; margin-bottom:0px; display:block;}
+#siteFooter .contact p.mailBtn a:hover{text-decoration:none; opacity:.7;}
+#siteFooter .contact a.phoneLink{color:#e30101;}
+#siteFooter .contact a.phoneLink:hover{color:#e30101; text-decoration:none;}
+#siteFooter .bottom{background:#fff;}
+#siteFooter .bottom .inner{width:960px; margin:0 auto; padding:15px 0; position:relative; min-height:0;}
+#siteFooter .bottom ul{margin-bottom:40px;}
+#siteFooter .bottom ul li{display:inline-block; margin-right:15px; line-height:1.0; font-size:12px; font-weight:bold;}
+#siteFooter .bottom ul li a{text-decoration:none;}
+#siteFooter .bottom ul li a:hover{text-decoration:underline;}
+#siteFooter .corp{position:absolute; right:0px; top:15px;}
+#siteFooter .copyright{text-align:center; font-size:12px; font-weight:bold;}
+#siteFooter .pgTop{font-size:10px; text-align:center; line-height:1.2; position:absolute; top:-27px; right:0; width:55px; height:55px;}
+#siteFooter .pgTop a{display:block; background:url(/saran/products/business/common/images/icon_pgtop.png) center 9px no-repeat #0059ae; color:#fff; padding-top:20px; line-height:1.3; border:1px solid #fff; width:55px; height:55px;}
+#siteFooter .pgTop a:hover{background-color:#06c; text-decoration:none;}
+
+/* breadcurumbs 
+========================================*/
+#breadcrumbs{background:#ebebeb; border:1px #fff solid; border-width:1px 0;}
+#breadcrumbs:after{content:''; display:block; clear:both;}
+#breadcrumbs ul{width:960px; margin:0 auto; list-style:none; font-size:12px;}
+#breadcrumbs ul li{display:inline-block; padding:5px 10px 5px 5px;}
+#breadcrumbs ul li:after{content:' ＞';}
+#breadcrumbs ul li:last-child:after{content:'';}
+
+/* main part 
+========================================*/
+#pageBody{position:relative; z-index:100; clear:both; padding-bottom:30px;}
+article,section{clear:both;}
+article:after,section:after{clear:both; display:block; content:'';}
+article{width:960px; margin:0 auto; position:relative; padding-bottom:30px;}
+article .pageHeader{text-align:center; padding:14px 0; height:66px; margin-bottom:30px;}
+article .pageHeader h1{font-size:28px; color:#0059ae; font-weight:bold;}
+body.brand #pageBody{padding-top:30px;}
+
+/* resize sensor
+========================================*/
+#sensor{position:fixed; left:-10px; top:-10px; width:5px; height:5px; visibility:hidden;}
+@media screen and (max-width: 767px){#sensor{width:1px; height:1px;}}
+
+
+@media screen and (max-width: 767px){
+a.phoneLink{pointer-events:auto;}
+
+/* base layout
+========================================*/ 
+#wrapper{min-width:320px; padding:54px 0 0 0; position:relative; z-index:0; overflow:hidden;}
+article{width:100%; padding:0 20px; min-width:320px; position:relative;}
+article img{width:100%; height:auto;}
+
+#siteHeader .inner,
+#siteFooter .inner,
+#siteFooter .bottom,
+#pageBody{width:100%; min-width:320px;}
+body.brand #pageBody{padding-top:0;}
+
+#siteHeader{width:100%; height:auto; background:#fff; position:fixed; left:0; top:0; z-index:10000;}
+#siteHeader .mask{width:100%; height:100%; position:fixed; left:0; top:0; z-index:10001;}
+#siteHeader nav ul{width:100%;}
+#siteHeader nav ul li{float:none;}
+#siteHeader .inner{padding:15px 8px 0 12px; height:52px; position:relative; background:#fff; z-index:10002;}
+
+#siteHeader .siteID{width:200px;}
+#siteHeader .siteID a{display:block;}
+#siteHeader .siteID img{width:100%; height:auto;}
+#siteHeader .inner ul{display:none;}
+
+#siteHeader .toggle{position:absolute; top:10px; right:8px; line-height:1.0; display:block; z-index:100003;}
+#siteHeader .toggle a{background-size:35px 35px; width:35px; height:35px; overflow:hidden; text-indent:100%; white-space:nowrap; display:block; position:relative; z-index:100004}
+#siteHeader a.open{background:url(/saran/products/business/common/images/btn_nav_menu.gif) left center no-repeat; background-size:35px 35px; cursor:pointer;}
+#siteHeader a.close{background:url(/saran/products/business/common/images/btn_nav_close.gif) left center no-repeat; background-size:35px 35px; display:none;}
+
+.scroller{overflow:auto; display:none; width:100%; height:calc(100% - 54px); position:fixed; left:0; top:54px; background:rgba(0,0,0,.5);}
+#global{width:100%; height:auto; position:relative;padding:0;}
+#global ul{background:#005bac;}
+#global ul:after{display:none;} 
+#global ul li{float:none; position:relative; width:100%; text-align:left; font-size:12px; padding:0; font-weight:bold; border-bottom:1px #fff solid; margin:0; pointer-events:auto; color:#fff;}
+#global ul li:before{display:none;}
+#global ul li a{display:block; height:auto; color:#fff; text-decoration:none; padding:15px 20px; width:100%; line-height:1.4; position:relative;}
+#global ul li a:before{display:none;}
+#global ul li ul{width:auto; background-color:#3176b4; padding:0; font-size:12px; position:relative; left:auto; top:auto; display:block; display:none;}
+#global ul li ul li{font-size:12px; border-bottom-color:#98bbda;}
+#global ul li ul li a{color:#fff; padding:15px 20px 15px 30px; background:none #3176b4; position:relative;}
+#global ul li ul li a br{display:none;}
+#global ul li ul li a:hover{text-decoration:none;}
+#global ul li ul li:last-child{border-bottom:none;}
+#global ul li ul li ul{display:none;}
+#global ul li ul li ul li a{background:#5a8dba; color:#fff; padding-left:45px;}
+#global ul li.hasGrandChildren > a:after{width:40px; height:100%; background:url(/saran/products/business/common/images/icon_arr_down.png) no-repeat center center #3176b4; background-size:10px; position:absolute; right:0; top:0; content:''; display:block; cursor:pointer;}
+#global ul li ul li.hasChildren > a:after{width:40px; height:100%; background:url(/saran/products/business/common/images/icon_arr_down.png) no-repeat center center #5a8dba; background-size:10px; position:absolute; right:0; top:0; content:''; display:block; cursor:pointer;}
+#global ul li.hasGrandChildren.open > a:after,
+#global ul li ul li.hasChildren.open > a:after{background-image:url(/saran/products/business/common/images/icon_arr_up.png)}
+
+body.brand #global ul li.lineup>ul{display:block;}
+body.brand.sw #global ul li.lineup>ul>li.sw>ul{display:block;}
+body.brand.cp #global ul li.lineup>ul>li.cp>ul{display:block;}
+body.brand.zl #global ul li.lineup>ul>li.zl>ul{display:block;}
+body.brand.gt #global ul li.lineup>ul>li.gt>ul{display:block;}
+
+#siteFooter{position:relative;}
+#siteFooter .inner{width:100%; min-height:0; padding:20px 10px;}
+#siteFooter nav{padding:0; width:100%;}
+#siteFooter nav dl{width:50%; margin:0 0 20px; padding:0 10px;}
+#siteFooter nav dl dt{font-size:12px; font-weight:bold; border-bottom:1px solid #81abd2; position:relative; margin-bottom:11px; padding:0 0 11px 10px; line-height:1.0;}
+#siteFooter nav dl dd{position:relative; font-size:12px; margin-bottom:10px;}
+#siteFooter nav ul{width:100%; position:relative; top:auto; left:auto; clear:both; margin-bottom:40px; padding:0 10px;}
+#siteFooter nav ul li{font-size:12px;}
+#siteFooter .contact{position:relative; right:auto; top:auto; width:auto; padding:0 0 15px; margin:0 10px;}
+#siteFooter .contact h3{margin:12px 0;}
+#siteFooter .contact dl,
+#siteFooter .contact p{padding:0 15px; font-size:12px; margin-top:-5px;}
+#siteFooter .contact dl dt{line-height:40px; width:40px; font-size:16px;}
+#siteFooter .contact dl dd{font-size:28px; line-height:40px; margin-bottom:12px; padding-left:50px;}
+#siteFooter .contact p.mailBtn{padding:0 15px; margin-top:15px;}
+#siteFooter .contact p.mailBtn a{width:100%;}
+
+#siteFooter .bottom .inner{width:100%;}
+#siteFooter .bottom ul{margin-bottom:15px; text-align:center; padding:0 20px;}
+#siteFooter .bottom ul li{display:inline-block; margin:5px 10px; line-height:1.4; font-size:12px; font-weight:normal;}
+#siteFooter .corp{position:relative; right:auto; top:auto; text-align:center; margin-bottom:15px;}
+#siteFooter .copyright{font-size:8px; font-weight:normal;}
+#siteFooter .pgTop{text-align:left; position:fixed; top:auto; right:0; bottom:0; z-index:10001;}
+#siteFooter .pgTop a,
+#siteFooter .pgTop a:hover{width:44px; height:44px; display:block; background:url(/saran/products/business/common/images/icon_pgtop.png) center center no-repeat rgba(0,51,153,.5); padding-top:0; text-indent:100%; overflow:hidden; white-space:nowrap;}
+#siteFooter .pgTop br{display:none;}
+body.open #siteFooter .pgTop {display:none;}
+
+/* breadcurumbs 
+========================================*/
+#breadcrumbs{display:none;}
+
+/* main part 
+========================================*/
+article{width:100%; padding-bottom:20px;}
+article .pageHeader{padding:12px 0; height:48px; margin-bottom:15px;}
+article .pageHeader h1{font-size:22px;}
+
+}
+
+/* 共通CSS
+========================================*/
+.cB {clear: both;}
+.clearfix:after {  
+  content: ".";   
+  display: block;   
+  height: 0;   
+  clear: both;   
+  visibility: hidden;  
+}  
+  
+.clearfix { display: inline-table; }  
+  
+/* Hides from IE-mac \*/  
+* html .clearfix { height: 1%; }  
+.clearfix { display: block; }  
+/* End hide from IE-mac */  
+
+
+#global li.ant {display: none !important; }
+#global li.ant a {display: none !important; }
+#global li.download {display: none !important;}
+#global li.download a {display: none !important;}
+@media screen and (max-width: 768px){
+	#global li.ant {display: block !important}
+	#global li.ant a{display: block !important}
+    #global li.download {display: block !important}
+	#global li.download a{display: block !important}
+}
+
+

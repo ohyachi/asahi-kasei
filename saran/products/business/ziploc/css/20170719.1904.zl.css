@@ -1,0 +1,206 @@
+@charset "utf-8";
+/* common */
+#pageBody header.brand{width:960px; height:50px; margin:0 auto; clear:both;}
+#pageBody header.brand p{float:left; padding:7px 0;}
+#pageBody header.brand p img{display:block;}
+#pageBody header.brand nav{width:858px; height:50px; float:right;}
+#pageBody header.brand nav ul{padding:10px 0; height:50px;}
+#pageBody header.brand nav ul li{height:30px; line-height:30px; float:left; border-right:1px #014099 solid; text-align: center; font-size:14px; font-weight:bold; padding:0 3px;}
+#pageBody header.brand nav ul li:first-child{border-left:1px #014099 solid;}
+#pageBody header.brand nav ul li:nth-child(1){width:95px;}
+#pageBody header.brand nav ul li:nth-child(2){width:159px;}
+#pageBody header.brand nav ul li:nth-child(3){width:189px;}
+#pageBody header.brand nav ul li:nth-child(4){width:116px;}
+#pageBody header.brand nav ul li:nth-child(5){width:160px;}
+#pageBody header.brand nav ul li:nth-child(6){width:138px;}
+#pageBody header.brand nav ul li a{color:#014099; display:block; height:30px; padding:0; box-sizing:content-box;}
+#pageBody header.brand nav ul li a:hover,
+#pageBody header.brand nav ul li a.active{border-bottom:3px #014099 solid; text-decoration:none;}
+@media screen and (max-width: 767px){
+#pageBody{padding-bottom:0;}
+#pageBody header.brand{width:100%; height:auto; display:none;}
+#pageBody header.brand p{float:none; padding:10px 0; background:#f5f5f5;}
+#pageBody header.brand p img{margin:0 auto;}
+#pageBody header.brand nav{width:100%; height:auto; float:none;}
+#pageBody header.brand nav ul{padding:0 0 1px; width:100%; height:auto; clear:both;}
+#pageBody header.brand nav ul:after{content:''; display:block; clear:both;}
+#pageBody header.brand nav ul li{width:50%; height:40px; line-height:40px; border:0 none; padding:1px;}
+#pageBody header.brand nav ul li:first-child{border-left:none;}
+#pageBody header.brand nav ul li a{color:#fff; background:#014099; display:block; width:100%; height:38px;}
+#pageBody header.brand nav ul li a:hover{border-bottom:none 0;}
+#pageBody header.brand nav ul li a.active{background:#fff; color:#014099;}
+}
+
+/* top */
+article.zl{background:url(/saran/products/business/ziploc/images/bg_g_zl_content.png) left top no-repeat #014099; padding:35px; margin-bottom:50px;}
+article.brand.zl header{margin:0 -35px; padding:2px 20px 0 70px; margin-bottom:27px; height:auto;}
+article.brand.zl header h1{text-align:center;}
+article.brand.zl section{background:#fff; margin-bottom:50px; position:relative;}
+article.brand.zl section h2{background:#fff20a; padding:0 25px; height:36px; line-height:36px; border-radius:18px; color:#014099; font-size:16px; font-weight:bold; display:inline-block; position:absolute; left:15px; top:-18px;}
+article.brand.zl section.lineup{background:transparent; margin-bottom:50px;}
+article.brand.zl section.lineup ul.zlLineup{clear:both; overflow:hidden; margin-bottom:15px;}
+article.brand.zl section.lineup ul.zlLineup:after{content:''; display:block; clear:both;}
+article.brand.zl section.lineup ul.zlLineup li{width:25%; float:left; list-style:none; background:#fff; border-radius:5px; overflow:hidden; border:1px #014099 solid; text-align:center;}
+article.brand.zl section.lineup ul.zlLineup li a{display:block;}
+article.brand.zl section.lineup ul.zlLineup li img{display:block;}
+article.brand.zl section.lineup ul.zlLineup li figcaption{background:#014099; padding:13px; text-align:center; font-weight:bold; background:url(/saran/products/business/common/images/icon_arr_fwd_blue.png) no-repeat 10px center #dce9f8; color:#013690;}
+article.brand.zl section.feature{padding-top:24px; background:#dcebf8; margin-bottom:40px;}
+article.brand.zl section.feature:after{content:''; display:block; clear:both;}
+article.brand.zl section.feature figure{width:412px; float:left;}
+article.brand.zl section.feature figure img{display:block;}
+article.brand.zl section.feature div.featureCopy{float:right; width:460px; padding:47px 37px 0 0;}
+article.brand.zl section.feature div.featureCopy p{margin-top:25px; font-size:17px;}
+article.brand.zl section.feature div h3{font-size:30px; font-weight:bold; color:#014099;}
+article.brand.zl section.links{background:transparent; margin-bottom:0;}
+article.brand.zl section.links .containerMenu,
+article.brand.zl section.links .voiceLink{width:430px; min-height:290px; background:#fff; padding:18px 28px 0; float:left;}
+article.brand.zl section.links .containerMenu h3,
+article.brand.zl section.links .voiceLink h3{color:#014099; font-size:22px; font-weight:bold; line-height:1.0; text-align:center; margin-bottom:17px;}
+article.brand.zl section.links .containerMenu ul{list-style:none;}
+article.brand.zl section.links .containerMenu ul li{display:table; width:100%;}
+article.brand.zl section.links .containerMenu ul li a{width:100%; height:104px;  border:2px solid #014099; border-radius:5px; padding:15px 13px 15px 115px; font-weight:bold; display:table-cell; vertical-align:middle; font-size:15px; background:url(/saran/products/business/ziploc/images/icon_link_arr.png) no-repeat 350px center; text-decoration:none;}
+article.brand.zl section.links .containerMenu ul li a strong{color:#014099; display:block; margin-bottom:3px; font-size:17px; font-weight:bold; letter-spacing:-0.08em;}
+article.brand.zl section.links .containerMenu ul li:first-child{background:url(/saran/products/business/ziploc/images/bg_g_zl_prod_menu01.jpg) left center no-repeat; margin-bottom:6px; }
+article.brand.zl section.links .containerMenu ul li:last-child{background:url(/saran/products/business/ziploc/images/bg_g_zl_prod_menu02.jpg) left center no-repeat;}
+article.brand.zl section.links .voiceLink{float:right;}
+article.brand.zl section.links .voiceLink a{display:block;}
+article.brand.zl section.links .voiceLink figure{margin-bottom:10px;}
+article.brand.zl section.links .voiceLink figure + p{font-size:14px; padding:0 20px;}
+article.brand.zl section.links .containerMenu ul li:hover,
+article.brand.zl section.links .voiceLink a:hover{opacity:.7; text-decoration:none;}
+article.brand.zl section.links div p{font-size:12px;}
+
+@media screen and (max-width: 767px){
+article.zl{background-size:480px auto; padding:20px; margin-bottom:0;}
+article.brand.zl header{margin:0 -20px; padding:0 20px; margin-bottom:20px;}
+article.brand.zl section{margin-bottom:30px;}
+article.brand.zl section h2{display:inline-block; position:relative; left:auto; top:auto; z-index:1; font-size:14px;}
+article.brand.zl section.lineup{margin-bottom:40px; text-align:center;}
+article.brand.zl section.lineup ul.zlLineup{margin-bottom:15px; position:relative; top:-18px; z-index:0;}
+article.brand.zl section.lineup ul.zlLineup li{width:50%;}
+article.brand.zl section.lineup ul.zlLineup li a{display:block;}
+article.brand.zl section.lineup ul.zlLineup li img{display:block;}
+article.brand.zl section.lineup ul.zlLineup li figcaption{padding:10px 5px 10px 20px; font-size:12px; position:relative; text-align:left; background:none; background-color:#dce9f8; text-indent:-1em;}
+article.brand.zl section.lineup ul.zlLineup li figcaption:before{background:url(/saran/products/business/common/images/icon_arr_fwd_blue.png) no-repeat left center; content:""; top:2px; left:0px;  display:inline-block; vertical-align:top; position:relative; width:5px; height:10px; margin-right:5px;} 
+article.brand.zl section.feature{padding:0; margin-bottom:40px; text-align:center;}
+article.brand.zl section.feature h2{top:-18px; margin-bottom:-18px;}
+article.brand.zl section.feature figure{width:auto; float:none;}
+article.brand.zl section.feature figure img{display:block;}
+article.brand.zl section.feature div.featureCopy{float:none; width:auto; padding:20px;}
+article.brand.zl section.feature div.featureCopy p{margin-top:20px; font-size:14px; line-height:1.5; text-align:left;}
+article.brand.zl section.feature div h3{font-size:24px;}
+article.brand.zl section.links .containerMenu{margin-bottom:10px;}
+article.brand.zl section.links .containerMenu,
+article.brand.zl section.links .voiceLink{width:auto; min-height:0; padding:15px; float:none;}
+article.brand.zl section.links .containerMenu h3,
+article.brand.zl section.links .voiceLink h3{font-size:18px; margin-bottom:12px;}
+article.brand.zl section.links .containerMenu ul li a{height:80px; padding:10px; background:url(/saran/products/business/ziploc/images/icon_link_arr.png) no-repeat 96% center;}
+article.brand.zl section.links .containerMenu ul li a strong{letter-spacing:0;}
+article.brand.zl section.links .containerMenu ul li:first-child{background:none; margin-bottom:6px; }
+article.brand.zl section.links .containerMenu ul li:last-child{background:none;}
+article.brand.zl section.links div p{font-size:12px;}
+}
+
+/* zlfb */
+article.zl.zlfb{padding:40px 38px 38px 37px;}
+article.zl.zlfb header{margin:0px -38px 55px -37px; margin-bottom:50px;}
+article.zl.zlfb header h1{padding:2px 20px 0 0px;}
+article.zl.zlfb header p{width:284px; height:40px; position:absolute; left:65px; top:205px; z-index:1;}
+article.zl.zlfb header p a{display:block; height:40px; line-height:36px; color:#fff; background:url(/saran/products/business/common/images/icon_arr_fwd_white.png) no-repeat 10px center; text-align:center; border:2px #fff solid; border-radius:5px; text-decoration:none;}
+article.zl.zlfb header p a:hover{background-color:rgba(255,255,255,.3);}
+article.zl section.zlfbFeature{padding:39px 30px 10px 33px;}
+article.zl section.zlfbFeature figure{margin-bottom:10px;}
+article.zl section.zlfbFeature figure+figure{margin-bottom:0px;}
+article.zl section.zlfbFeature .zlfbTxt{width:402px; float:left; margin-right:14px;}
+article.zl section.zlfbFeature .zlfbTxt div{width:402px; padding-left:52px; position:relative; margin-bottom:19px;}
+article.zl section.zlfbFeature .zlfbTxt div h3{font-size:20px; line-height:1.4; color:#0d489b; line-height:1.3; margin-bottom:5px; font-weight:bold;}
+article.zl section.zlfbFeature .zlfbTxt div h3 i{position:absolute; left:0px; top:0px; font-size:45px; font-weight:bold; font-style:italic; color:#014099;}
+article.zl section.zlfbFeature .zlfbTxt div h3 span{background:linear-gradient(transparent 16%, #d2eefe 16%);}
+article.zl section.zlfbFeature .zlfbTxt div p{font-size:14px; color:#010101; line-height:1.5;}
+article.zl section.zlfbFeature .zlfbTxt div figure{float:right; margin-left:12px;}
+article.zl section.zlfbCase{padding:20px 35px 35px 36px; margin-bottom:0px;}
+article.zl section.zlfbCase .caseHalf div{width:400px;  margin-top:15px; float:left; }
+article.zl section.zlfbCase .caseHalf div:nth-child(2n){}
+article.zl section.zlfbCase .caseHalf div:nth-child(2n){margin-left:14px;}
+article.zl section.zlfbCase .caseHalf div:nth-child(2n+1){clear:both;}
+article.zl section.zlfbCase .caseHalf div h3{color:#014099; font-size:20px; font-weight:bold; text-align:center; margin-bottom:13px;}
+article.zl section.zlfbCase .caseHalf div h3 small{font-size:12px;}
+article.zl section.zlfbCase .caseHalf div figure{}
+article.zl section.zlfbCase .caseHalf div figure figcaption{font-size:14px; line-height:1.4;}
+article.zl section.zlfbCase .caseHalf div p small{font-size:12px; display:block; line-height:1.5; margin-top:3px;}
+
+@media screen and (max-width: 767px){
+article.zl.zlfb{padding:20px;}
+article.zl.zlfb header{margin:0px; margin-bottom:0px; padding-bottom:80px; position:relative;}
+article.zl.zlfb header h1{margin:0px -20px; padding:0px;}
+article.zl.zlfb header p{width:100%; padding:0; height:40px; top:auto; bottom:30px; left:auto; margin:0px -20px;}
+article.zl.zlfb header p a:hover{background-color:rgba(255,255,255,.3);}
+article.zl section.zlfbFeature,
+article.zl section.zlfbCase{padding:0 15px 15px;}
+article.zl section.zlfbCase{margin-bottom:0px;}
+article.zl.zlfb section h2{display:inline-block; position:relative; left:auto; top:-17px; z-index:1; font-size:14px; line-height:1.5; padding:5px 25px; height:auto; margin-bottom:0px;}
+article.zl section.zlfbFeature .zlfbTxt,
+article.zl section.zlfbFeature .zlfbTxt div figure{width:100%; float:none; }
+article.zl section.zlfbFeature .zlfbTxt div{width:100%; padding-left:0px; } 
+article.zl section.zlfbFeature .zlfbTxt div:last-child{margin-bottom:15px;}
+article.zl section.zlfbFeature .zlfbTxt div h3{padding-left:20px; font-size:17px; }
+article.zl section.zlfbFeature .zlfbTxt div h3 br{display:none;}
+article.zl section.zlfbFeature .zlfbTxt div h3 i{left:0px; top:1px; font-size:17px;  margin-right:20px; font-style:normal;}
+article.zl section.zlfbFeature .zlfbTxt div figure{margin-left:auto; }
+article.zl section.zlfbFeature figure{margin-bottom:3px;}
+article.zl section.zlfbCase .caseHalf div{width:100%; float:none; margin-top:auto; margin-bottom:15px; height:auto !important;}
+article.zl section.zlfbCase .caseHalf div:nth-child(2n){margin-left:auto;}
+article.zl section.zlfbCase .caseHalf div:last-child{margin-bottom:auto;}
+article.zl section.zlfbCase .caseHalf div p small{margin-top:5px;}
+article.zl section.zlfbCase .caseHalf div h3{text-align:left; font-size:17px;}
+article.zl section.zlfbCase .caseHalf div h3 small{display:block;}
+}
+
+/* zlctcase */
+article.zl.zlctcasearea{padding:20px 38px 38px 37px;}
+article.zl header.zlctcasemain {height:150px; margin-bottom:20px; position: relative;}
+article.zl header.zlctcasemain h1{font-size:30px; font-weight:bold; color:#fff; display:table-cell; vertical-align:middle; padding-left:27px; height:137px; text-align: left;}
+article.zl header.zlctcasemain figure{position: absolute; top:0px; left:600px; display: block;}
+article.zl section.zlctcase{padding:39px 10px 30px 18px;}
+article.zl section.zlctcase p {font-size: 16px;}
+article.zl section.zlctcase h3 { font-size: 16px; color: #004098; font-weight: bold; margin-top: 20px;}
+article.zl section.zlctcase ul { list-style: none; display: block; position: relative}
+article.zl section.zlctcase ul li { float: left; margin-right: 2px; display: block;}
+article.zl section.zlctcase ul p.ic01 {position: absolute; top:52px; left: 200px;}
+article.zl section.zlctcase ul p.ic02 {position: absolute; top:52px; left: 415px;}
+article.zl section.zlctcase ul p.ic03 {position: absolute; top:52px; left: 625px;}
+@media screen and (max-width: 767px){
+	article.zl header.zlctcasemain h1,
+    article.zl header.zlctcasemain{height:auto;}
+    article.zl header.zlctcasemain{display:block; padding-bottom:0px;}
+    article.zl header.zlctcasemain h1{font-size:24px; display:block; padding-left:0; text-align:center; margin-bottom:20px;}
+    article.zl header.zlctcasemain figure{display:block; text-align:center; padding:0 20px; height:auto; position: static;}
+	article.zl section.zlctcase{padding:10px 10px 30px 18px;}
+	article.zl section.zlctcase h2{display:inline-block; position:relative; left:auto; top:-20px; z-index:1; font-size:14px; line-height:1.5; padding:5px 25px; height:auto; margin-bottom:0px;}
+	article.zl section.zlctcase ul {}
+	article.zl section.zlctcase ul li {width: 49%;}
+	article.zl section.zlctcase ul li:nth-of-type(even) {margin-right: 0px;}
+	article.zl section.zlctcase ul p.ic01 {display: none;}
+    article.zl section.zlctcase ul p.ic02 {display: none;}
+    article.zl section.zlctcase ul p.ic03 {display: none;}
+}
+
+/* voice */
+article.zl.zlctcasearea{padding:20px 38px 38px 37px;}
+article.zl section.zlvoice{padding:39px 30px 30px 30px;}
+article.zl section.zlvoice .voicetext {}
+article.zl section.zlvoice .voicetext p { display: block; float: left; font-size: 16px;}
+article.zl section.zlvoice .voicetext p:first-of-type { width:264px; }
+article.zl section.zlvoice .voicetext p:last-of-type { margin-left: 25px; width: 520px;}
+article.zl section.zlvoice ul {list-style: none; margin-top: 30px;}
+article.zl section.zlvoice ul li { float: left; }
+@media screen and (max-width: 767px){
+	article.zl section.zlvoice{padding:10px 10px 30px 18px;}
+	article.zl section.zlvoice h2{display:inline-block; position:relative; left:auto; top:-20px; z-index:1; font-size:14px; line-height:1.5; padding:5px 25px; height:auto; margin-bottom:0px;}
+	article.zl section.zlvoice .voicetext p:first-of-type { width:100%; }
+	article.zl section.zlvoice .voicetext p:last-of-type { margin-left: 0px; width: 100%;}
+	article.zl section.zlvoice ul {}
+	article.zl section.zlvoice ul li { width: 100%}
+
+}
+

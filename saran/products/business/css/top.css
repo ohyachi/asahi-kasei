@@ -1,0 +1,154 @@
+
+/* top 
+========================================*/
+article{padding-bottom:80px;}
+.mainVisual{background:#ebebeb; padding:10px 0 15px; display:none; opacity:0;}
+.mainVisual ul li{list-style:none; position:relative; }
+.mainVisual ul li a{display:block; background-repeat:no-repeat; width:960px; height:385px; position:absolute; left:8px; top:8px;}
+.brands{background:url(/saran/products/business/images/bg_brand.gif);}
+.brands ul{line-style:none; width:960px; margin:0 auto; padding:25px 0;}
+.brands ul li{display:inline-block; margin-right:12px; width:227px;}
+.brands ul li a{display:block;}
+.brands ul li a:hover{opacity:.7;}
+.brands ul li:last-child{margin-right:0;}
+.brands ul li img{display:block; width:227px; height:auto;}
+
+section h2{font-size:25px; margin-bottom:20px; font-weight:bold; color:#0059ae; text-align:center; position:relative;}
+section.information{padding:60px 0 20px 0; position: relative;}
+section.information h2:before{background:url(/saran/products/business/images/icon_information.png) center no-repeat; position:relative; vertical-align:middle; top:-2px; content:''; display:inline-block; width:32px; height:32px; margin-right:15px;}
+section.information h2.video:before{background:url(/saran/products/business/images/icon_information2.png) center no-repeat; position:relative; vertical-align:middle; top:-2px; content:''; display:inline-block; width:32px; height:32px; margin-right:15px;} 
+section.information div{float:left; width:307px; margin-right:19px; position:relative;}
+section.information div:last-child{margin-right:0px;}
+section.information div a{display:block;}
+section.information div a:hover{opacity:.7; text-decoration:none;}
+section.information div figure{height:165px; position:relative;}
+section.information div figure img{display:block; width:100%; height:auto;}
+section.information div h3{padding:7px 17px; line-height:1.0; font-size:13px; background:#0059ae; color:#fff; position:absolute; right:0px; top:0px; font-weight:bold; z-index:1;}
+section.information div p{padding:12px 0 0 0; text-align:center;}
+section.information div p span {color:#0659AE; font-weight: bold; font-size: 16px;}
+
+section.information div h3.saranwrap_t {color: #FDEA00; background: #00983B}
+section.information div h3.cookper_t {color: #003292; background: #FBCF9A}
+section.information div h3.ziploc_t {color: #FFFFFF; background: #003D9B}
+section.information div h3.greasetrap_t {color: #0059AF; background: #FFEF90}
+
+.info_btn a {display: block; background: #0659AE; color: #FFF; text-align: center; font-weight: bold; padding: 10px; width: 200px; float: right;}
+.info_btn a:hover {text-decoration: none; opacity: 0.6;}
+
+section.information2 { padding-top: 50px; padding-bottom: 50px;}
+section.information2 h2:before {}
+section.information2 div {width:470px;}
+section.information div figure {height: auto !important;}
+section.information2 div h3{ color:#0659AE; position:relative !important; left: 0px; top:0px; background: none; text-align: center; font-size: 18px;} 
+
+section.productsMenu h2:before{background:url(/saran/products/business/common/images/icon_products.png) center no-repeat; position:relative; vertical-align:middle; top:-2px; content:''; display:inline-block; width:66px; height:25px; margin-right:15px;}  
+section.productsMenu div{width:240px; float:left; border-right:1px solid #fff; color:#0059ae; font-weight:bold; margin-bottom:10px;}
+section.productsMenu div.homeSaran{background:#e1efe2; border-radius:6px 0 0 6px;}
+section.productsMenu div.homeCookper{background:#fef2e5;}
+section.productsMenu div.ziploc{background:#e6f0fe;}
+section.productsMenu div.greaseTrap{background:#fffae3; border-right:none; border-radius:0 6px 6px 0;}
+
+section.productsMenu div a{color:#0059ae;}
+section.productsMenu div a:hover{color:#0059ae; text-decoration:none;}
+section.productsMenu div h3{text-align:center; font-size:16px; font-weight:bold; height:50px; overflow:visible; position:relative; z-index:1; line-height:1.2;}
+section.productsMenu div h3 i{margin:8px 9px 8px 9px; border:1px solid #0059ae; font-size:14px; line-height:1.5; font-weight:bold; display:block;}
+section.productsMenu div figure{border-bottom:1px #fff solid; height:100px; position:relative; z-index:0;}
+section.productsMenu div figure img{position:absolute; left:0; bottom:0;}
+section.productsMenu div ul{padding:20px 25px; list-style:none;}
+section.productsMenu div ul li{margin-bottom:3px;}
+section.productsMenu div ul li a{padding-left:17px; background:url(/saran/products/business/common/images/icon_arr_fwd_blue.png) left center no-repeat;}
+section.productsMenu div ul li a:hover{text-decoration:underline;}
+section.productsMenu ul.more{clear:both; list-style:none; position:relative;}
+section.productsMenu ul.more li a:hover{text-decoration:none;}
+section.productsMenu ul.more li:first-child{width:236px; font-size:14px; font-weight:bold;}
+section.productsMenu ul.more li:first-child a{width:236px; line-height:48px; font-size:14px; display:block; color:#0b60b2; border-radius:5px; padding-left:43px;  background:url(/saran/products/business/common/images/icon_arr_fwd_blue.png) 25px center no-repeat #deedfc;}
+section.productsMenu ul.more li:last-child{width:191px; position:absolute; right:0; top:11px;}
+section.productsMenu ul.more li:last-child a{width:191px; line-height:36px; display:block; background:url(/saran/products/business/common/images/icon_arr_fwd_white.png) 12px center no-repeat #0059ae; color:#fff; text-align:center;}
+section.productsMenu ul.more li a:hover{opacity:.7;}
+
+
+section.productsMenu02 {background: #DEEDFD; margin: 0 !important; padding: 0 !important; 
+	border-radius: 5px;        /* CSS3草案 */  
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 5px;   /* Firefox用 */ }
+section.productsMenu02 div {width:240px; float:left;  color:#0059ae; font-weight:bold; margin-bottom:10px;}
+section.productsMenu02 div h3{text-align:center; font-size:16px; font-weight:bold; height:25px; overflow:visible; position:relative; z-index:1; line-height:1.2;}
+section.productsMenu02 div h3 i{margin:8px 9px 8px 9px; border:1px solid #0059ae; font-size:14px; line-height:1.5; font-weight:bold; display:block;}
+section.productsMenu02 ul{display: block; width: 700px; float:left; list-style:none; padding-top: 12px;}
+section.productsMenu02 ul li {float:left; margin-left: 25px;}
+section.productsMenu02 ul li a {padding-left:17px; background:url(/saran/products/business/common/images/icon_arr_fwd_blue.png) left center no-repeat; font-weight: bold; color: #0057B1}
+section.productsMenu02 div ul li a:hover{text-decoration:underline;}
+ul.more{clear:both; list-style:none; position:relative;}
+ul.more li{width:191px; position:absolute; right:0; top:11px;}
+ul.more li a{width:191px; line-height:36px; display:block; background:url(/saran/products/business/common/images/icon_arr_fwd_white.png) 12px center no-repeat #0059ae; color:#fff; text-align:center;}
+
+
+
+@media screen and (max-width: 767px){
+article{padding-bottom:20px;}
+.mainVisual{background:#ebebeb; padding:0 0 15px;}
+.mainVisual ul li a{width:100%; height:auto; position:relative; left:auto; top:auto;}
+.mainVisual ul li img{width:100%; height:auto;}
+.mainVisual ul li img.bg{display:none;}
+
+.brands ul{width:100%; padding:20px 10px 0;}
+.brands ul:after{content:''; display:block; clear:both;}
+.brands ul li{float:left; padding:0 10px; margin:0 0 20px; width:50%;}
+.brands ul li img{width:100%; height:auto;}
+
+section h2{font-size:21px;}
+
+section.information{padding-bottom:10px;}
+section.information div{float:none; width:100%; margin:0 0 30px;}
+section.information div figure{height:auto;}
+section.information div h3{padding:8px 24px; font-size:14px;}
+section.information div p{padding:12px 0;}
+
+	section.information2 div {width: 100%;}
+	section.information2 div iframe{width: 100%;}
+	section.information2{padding-bottom:30px;}
+	
+section.productsMenu div{width:50%;}
+section.productsMenu div.homeSaran{border-radius:6px 0 0 6px;}
+section.productsMenu div.homeCookper{border-radius:0 6px 6px 0;}
+section.productsMenu div.ziploc{border-radius:6px 0 0 6px;}
+section.productsMenu div.greaseTrap{border-radius:0 6px 6px 0;}
+section.productsMenu div h3{height:40px;}
+section.productsMenu div h3 i{margin:8px 6px 8px 6px; font-size:10px; margin-bottom:5px;}
+section.productsMenu div figure{height:75px;}
+section.productsMenu div ul{padding:9px 5px 9px 9px;}
+section.productsMenu div ul li{margin-bottom:8px; font-size:12px; text-indent:-10px; padding-left:10px;}
+section.productsMenu div ul li a{padding-left:10px;}
+
+section.productsMenu ul.more li:first-child{width:50%;}
+section.productsMenu ul.more li:first-child a{width:100%; line-height:40px; font-size:12px; padding-left:20px; background-position:15px center;}
+section.productsMenu ul.more li:last-child{width:35%; position:absolute; right:0; top:auto; bottom:0;}
+section.productsMenu ul.more li:last-child a{width:100%; line-height:30px; background-position:8px center;}
+	
+section.productsMenu02 {width:50%; height: auto;}
+section.productsMenu02 div {width:100%;}
+section.productsMenu02 div h3 i{margin:8px 6px 8px 6px; font-size:10px;}
+section.productsMenu02 ul {width: 100%; float: none; padding-bottom: 10px;}
+section.productsMenu02 ul li {float: none; margin-bottom:8px; font-size:12px; text-indent:-10px; padding-left:10px; margin-left: 10px;}
+section.productsMenu02 ul li a{padding-left:10px;}
+	
+ul.more li{width:35%; position:absolute; right:0; top:auto; bottom:0;}
+ul.more li a{width:100%; line-height:30px; background-position:8px center;}
+}
+
+
+
+
+section.news {padding-top: 50px;}
+section.news .newssp {display: none;}
+section.news .newstitle{ float: left;  background: #0057B1; padding: 30px; padding-top: 40px; color: #FFFFFF; font-size: 16px;  width: 20%; text-align: center; display: table-cell; vertical-align: middle;}
+section.news .newstext{ float: left; padding: 5px; width: 79%; border: #0657B1 1px dotted;}
+section.news .newstext table {}
+section.news .newstext table tr {}
+section.news .newstext table tr td { padding: 10px;}
+@media screen and (max-width: 767px){
+	section.news .newssp {background: #0057B1; padding: 10px; color: #FFFFFF; font-size: 14px;  width: 100%; text-align: center; display: table-cell; vertical-align: middle;}
+	section.news .newstitle {clear: both; width: 100%; padding: 10px; display: none;}
+	section.news .newstext {clear: both; width: 100%;}
+	section.news .newstext table tr td { padding: 3px;}
+}

@@ -1,0 +1,808 @@
+@charset "utf-8";
+/* common */
+#pageBody header.brand{width:960px; height:50px; margin:0 auto; clear:both;}
+#pageBody header.brand p{float:left; padding:7px 0;}
+#pageBody header.brand p img{display:block;}
+#pageBody header.brand nav{width:772px; height:50px; float:right;}
+#pageBody header.brand nav ul{padding:10px 0; height:50px;}
+#pageBody header.brand nav ul li{height:30px; line-height:30px; float:left; border-right:1px #014099 solid; text-align: center; font-size:14px; font-weight:bold; padding:0 3px;}
+#pageBody header.brand nav ul li:first-child{border-left:1px #014099 solid;}
+#pageBody header.brand nav ul li:nth-child(1){width:80px;}
+#pageBody header.brand nav ul li:nth-child(2){width:150px;}
+#pageBody header.brand nav ul li:nth-child(3){width:90px;}
+#pageBody header.brand nav ul li:nth-child(4){width:190px;}
+#pageBody header.brand nav ul li:nth-child(5){width:130px;}
+#pageBody header.brand nav ul li:nth-child(6){width:130px;}
+#pageBody header.brand nav ul li a{color:#014099; display:block; height:30px; padding:0; box-sizing:content-box;}
+#pageBody header.brand nav ul li a:hover,
+#pageBody header.brand nav ul li a.active{border-bottom:3px #014099 solid; text-decoration:none;}
+@media screen and (max-width: 767px){
+#pageBody{padding-bottom:0;}
+#pageBody header.brand{width:100%; height:auto; display:none;}
+#pageBody header.brand p{float:none; padding:10px 0; background:#f5f5f5;}
+#pageBody header.brand p img{margin:0 auto;}
+#pageBody header.brand nav{width:100%; height:auto; float:none;}
+#pageBody header.brand nav ul{padding:0 0 1px; width:100%; height:auto; clear:both;}
+#pageBody header.brand nav ul:after{content:''; display:block; clear:both;}
+#pageBody header.brand nav ul li{width:50%; height:40px; line-height:40px; border:0 none; padding:1px;}
+#pageBody header.brand nav ul li:first-child{border-left:none;}
+#pageBody header.brand nav ul li a{color:#fff; background:#014099; display:block; width:100%; height:38px;}
+#pageBody header.brand nav ul li a:hover{border-bottom:none 0;}
+#pageBody header.brand nav ul li a.active{background:#fff; color:#014099;}
+}
+
+/* top */
+article.cp{background:url(/saran/products/business/cookper/images/bg_g_cp_content.png); padding:35px; margin-bottom:50px;}
+article.brand.cp header{margin:0 -35px; padding:0 0 0 10px; margin-bottom:20px; height:auto;}
+article.brand.cp header h1{text-align:center;}
+article.brand.cp section{background:#fff; margin-bottom:50px; position:relative;}
+article.brand.cp section h2{background:#013690; padding:0 25px; height:36px; line-height:36px; border-radius:18px; color:#fff; font-size:16px; font-weight:bold; display:inline-block; position:absolute; left: 16px; top:-17px;}
+article.brand.cp section.lineup{background:transparent; margin-bottom:40px;}
+article.brand.cp section.lineup ul.cpLineup{clear:both; overflow:hidden; margin-bottom:15px;}
+article.brand.cp section.lineup ul.cpLineup:after{content:''; display:block; clear:both;}
+article.brand.cp section.lineup ul.cpLineup li{width:25%; float:left; list-style:none; background:#fff; border-radius:5px; overflow:hidden; border:1px #face9d solid; text-align:center;}
+article.brand.cp section.lineup ul.cpLineup li a{display:block;}
+article.brand.cp section.lineup ul.cpLineup li img{display:block;}
+article.brand.cp section.lineup ul.cpLineup li figcaption{background:#dce9f8; padding:13px; text-align:center; font-weight:bold; background:url(/saran/products/business/common/images/icon_arr_fwd_blue.png) no-repeat 10px center #dce9f8; color:#013690; display: table; vertical-align: middle; width: 100%;}
+article.brand.cp section.lineup .ordermade{padding-left:calc(50% + 2px);}
+article.brand.cp section.lineup .ordermade a{display:block; border-radius:5px; background:#72c247 url(/saran/products/business/cookper/images/icon_linkmark.png) no-repeat 15px center; color:#fff; padding:10px; text-align:center;}
+article.brand.cp section.lineup .ordermade a:hover{text-decoration:none; background-color:#9C3;}
+article.brand.cp section.lineup .ordermade h3{font-weight:bold; margin-bottom:5px;}
+article.brand.cp section.lineup .ordermade p{font-size:12px;}
+article.brand.cp section.feature{padding:30px 40px 40px;}
+article.brand.cp section.feature ol{list-style:none; font-size:18px; width:500px; float:left; margin-bottom:20px;}
+article.brand.cp section.feature ol li{margin-bottom:.25em; padding-left:1.5em; text-indent:-1.5em; line-height:1.4;}
+article.brand.cp section.feature ol li i{color:#013690; padding-right:.5em;}
+article.brand.cp section.feature ol+figure{float:right; margin-bottom:20px;}
+article.brand.cp section.feature .grade{clear:both; border:1px #d5e4fe solid;}
+article.brand.cp section.feature .grade:after{clear:both; content:''; display:block;}
+article.brand.cp section.feature .grade h3{background:#d5e4fe; color:#013690; text-align:center; font-size:18px; font-weight:bold; padding:10px;}
+article.brand.cp section.feature .grade h4{font-weight:bold; font-size:16px; margin-bottom:5px;}
+article.brand.cp section.feature .grade div{padding:30px 25px 10px; width:50%; float:left;}
+article.brand.cp section.feature .grade div:last-child{border-left:1px #d5e4fe solid;}
+article.brand.cp section.feature .grade p{line-height:1.65;}
+article.brand.cp section.cases{padding:50px 62px 40px;}
+article.brand.cp section.cases .merit{border:2px #ef8701 solid; padding:35px 30px 15px; background:#fce6ce; position:relative; margin-bottom:40px;}
+article.brand.cp section.cases .merit h3{background:#ef8701; text-align:center; font-size:18px; font-weight:bold; color:#fff; padding:10px; border-radius:22px; width:700px; position:absolute; left:50%; top:-22px; margin-left:-350px;}
+article.brand.cp section.cases .merit ol{list-style:none; width:100%;}
+article.brand.cp section.cases .merit ol li{display:inline-block; margin:0 0 .5em; font-size:16px;}
+article.brand.cp section.cases .merit ol li:nth-child(3n+1){width:34%;}
+article.brand.cp section.cases .merit ol li:nth-child(3n+2){width:34%;}
+article.brand.cp section.cases .merit ol li:nth-child(3n+3){width:29%;}
+article.brand.cp section.cases .merit ol li i{color:#ef8701; padding-right:.5em;}
+article.brand.cp section.cases .use{}
+article.brand.cp section.cases .use h3{font-size:24px; font-weight:bold; color:#013690; margin-bottom:15px; text-align:center;}
+article.brand.cp section.cases .use ul{margin:0 -7px; list-style:none; clear:both;}
+article.brand.cp section.cases .use ul:after{content:''; display:block; clear:both;}
+article.brand.cp section.cases .use ul li{width:246px; float:left; margin:0 7px 14px; background:#fce6ce;}
+article.brand.cp section.cases .use ul li img{display:block;}
+article.brand.cp section.cases .use ul li figcaption{background:#fce6ce; text-align:center; padding:5px 0; font-size:16px; font-weight:bold;}
+article.brand.cp section.cases .use ul li a{display:block;}
+article.brand.cp section.cases .use ul li a:hover{opacity:.7; text-decoration:none;}
+article.brand.cp section.links{background:transparent; padding:30px 0 0; margin-bottom:0;}
+article.brand.cp section.links h2{top:-50px;}
+article.brand.cp section.links div{float:left; width:284px; position:relative; margin-right:19px;}
+article.brand.cp section.links div:last-child{margin-right:0;}
+article.brand.cp section.links div figcaption{font-weight:bold; font-size:16px; text-align:center; padding:10px 0;}
+article.brand.cp section.links div a{display:block;}
+article.brand.cp section.links div a:hover{text-decoration:none; opacity:.7;}
+
+@media screen and (max-width: 767px){
+article.brand.cp{padding:20px; margin-bottom:0;}
+article.brand.cp header{margin:0 -20px 10px; padding:0 5px; height:auto;}
+article.brand.cp header h1{text-align:center;}
+article.brand.cp section{margin-bottom:30px; position:relative; text-align:center;}
+article.brand.cp section h2{padding:5px 25px; display:inline-block; text-align:center; margin:0 auto; position:relative; height:auto; border-radius:14px; left:auto; top:-18px; font-size:14px; line-height:1.5;}
+article.brand.cp section.lineup{margin-bottom:60px;}
+article.brand.cp section.lineup h2{top:18px; margin-bottom:0;}
+article.brand.cp section.lineup ul.cpLineup{margin-bottom:0;}
+article.brand.cp section.lineup ul.cpLineup li{width:50%; margin-bottom:10px;}
+article.brand.cp section.lineup ul.cpLineup li figcaption{padding:10px; font-size:12px;}
+article.brand.cp section.lineup .ordermade{padding-left:0;}
+article.brand.cp section.lineup .ordermade h3{font-size:12px;}
+article.brand.cp section.lineup .ordermade a{background-position:5px center;}
+article.brand.cp section.lineup .ordermade p{font-size:10px;}
+article.brand.cp section.feature{padding:0 15px 20px; margin-bottom:60px;}
+article.brand.cp section.feature img{display:block; margin:0 auto;}
+article.brand.cp section.feature ol{font-size:14px; width:auto; float:none; margin-bottom:20px; text-align:left;}
+article.brand.cp section.feature ol+figure{float:none; margin-bottom:20px;}
+article.brand.cp section.feature ol+figure img{max-width:269px; height:auto;}
+article.brand.cp section.feature .grade h3{text-align:left; font-size:14px; padding:10px;}
+article.brand.cp section.feature .grade h4{font-size:14px; margin-bottom:5px;}
+article.brand.cp section.feature .grade div{padding:15px 10px 10px; width:100%; float:none; font-size:12px;}
+article.brand.cp section.feature .grade div:last-child{border-top:1px #d5e4fe solid; border-left:0 none;}
+article.brand.cp section.cases{padding:0 15px 5px; margin-bottom:40px;}
+article.brand.cp section.cases h2{margin-bottom:10px;}
+article.brand.cp section.cases .merit{padding:16px 5px 15px; margin-bottom:20px;}
+article.brand.cp section.cases .merit h3{font-size:12px; padding:8px 0; border-radius:12px; top:-16px; left:auto; margin:-15px 0 0; position:relative; width:100%;}
+article.brand.cp section.cases .merit ol{list-style:none; width:100%; padding:0 15px; text-align:left;}
+article.brand.cp section.cases .merit ol li{display:block; font-size:14px;}
+article.brand.cp section.cases .merit ol li:nth-child(3n+1),
+article.brand.cp section.cases .merit ol li:nth-child(3n+2),
+article.brand.cp section.cases .merit ol li:nth-child(3n+3){width:100%;}
+article.brand.cp section.cases .use h3{font-size:16px; margin-bottom:10px; text-align:left;}
+article.brand.cp section.cases .use ul{margin:0 -4px;}
+article.brand.cp section.cases .use ul li{width:48%; margin:0 1% 10px;}
+article.brand.cp section.cases .use ul li figcaption{padding:4px 0; font-size:12px;}
+article.brand.cp section.cases .use ul li a{display:block;}
+article.brand.cp section.cases .use ul li a:hover{opacity:.7; text-decoration:none;}
+article.brand.cp section.links{background:transparent; padding:0 10px;}
+article.brand.cp section.links h2{top:0; margin-bottom:10px;}
+article.brand.cp section.links div{float:none; width:100%; margin:0 0 30px;}
+article.brand.cp section.links div figcaption{font-size:14px;}
+article.brand.cp section.links div p{font-size:12px;}
+}
+
+/* case & recipe index */
+article.case.cp header.caseIndex{margin:0 0 30px; padding:0; height:auto;}
+article.case.cp header h1{text-align:center; margin:0 0 30px;}
+article.case.cp header nav.caseAnchor{height:50px; margin-bottom:30px;}
+article.case.cp header nav.caseAnchor ul{height:50px;}
+article.case.cp header nav.caseAnchor ul li{width:170px; height:50px; float:left; text-align:center; margin-right:5px; box-shadow:0 0 3px rgba(0,0,0,.3);}
+article.case.cp header nav.caseAnchor ul li a{border:2px #fff solid; border-radius:5px; display:block; height:50px; padding-top:10px; box-shadow:0 0 5px rgba(0,0,0,.3) inset; color:#fff; font-weight:bold; text-decoration:none; position:relative;}
+article.case.cp header nav.caseAnchor ul li:nth-child(1) a{background-color:#ed6d47;}
+article.case.cp header nav.caseAnchor ul li:nth-child(2) a{background-color:#4f86c5;}
+article.case.cp header nav.caseAnchor ul li:nth-child(3) a{background-color:#ea6188;}
+article.case.cp header nav.caseAnchor ul li:nth-child(4) a{background-color:#33b371;}
+article.case.cp header nav.caseAnchor ul li:nth-child(5) a{background-color:#9070af;}
+article.case.cp header nav.caseAnchor ul li a:hover{box-shadow:none; opacity:.7;}
+article.case.cp header nav.caseAnchor ul li a:after{content:''; display:block; background:url(/saran/products/business/cookper/case/images/icon_page_anchor.png) no-repeat; width:28px; height:15px; position:absolute; left:50%; margin-left:-14px; bottom:0;}
+article.case.cp .caseList,
+article.recipe.cp .recipeList{background:#fff; padding:0 15px 20px; margin-bottom:25px;}
+article.case.cp .caseList:last-child,
+article.recipe.cp .recipeList:last-child{margin-bottom:0;}
+article.case.cp .caseList h2,
+article.recipe.cp .recipeList h2{background:#ccc; color:#fff; font-size:18px; font-weight:bold; margin:0 -15px 15px; padding:10px 15px;}
+article.case.cp .caseList#yaku h2{background-color:#ed6d47;}
+article.case.cp .caseList#musu h2{background-color:#4f86c5;}
+article.case.cp .caseList#niru h2{background-color:#ea6188;}
+article.case.cp .caseList#ageru h2{background-color:#33b371;}
+article.case.cp .caseList#maku h2{background-color:#9070af;}
+article.recipe.cp .recipeList p{margin-bottom:15px; padding:0 5px; font-size:16px;}
+article.recipe.cp .recipeList.byoin h2{background-color:#9e6958;}
+article.recipe.cp .recipeList.byoin p{color:#9e6958;}
+article.recipe.cp .recipeList.roken h2{background-color:#BE8916;}
+article.recipe.cp .recipeList.roken p{color:#BE8916;}
+article.case.cp .caseList ul,
+article.recipe.cp .recipeList ul{clear:both;}
+article.case.cp .caseList ul:after,
+article.recipe.cp .recipeList ul:after{clear:both; content:''; display:block;}
+article.case.cp .caseList ul li,
+article.recipe.cp .recipeList ul li{list-style:none; text-align:center; float:left; width:210px; margin:0 1px 10px; font-size:12px; font-weight:bold;}
+article.case.cp .caseList ul li:nth-child(4n+1),
+article.recipe.cp .recipeList ul li:nth-child(4m+1){clear:both;}
+article.case.cp .caseList ul figure img,
+article.recipe.cp .recipeList ul figure img{display:block; margin-bottom:5px;}
+article.case.cp .caseList ul li a,
+article.recipe.cp .recipeList ul li a{display:block;}
+article.case.cp .caseList ul li a:hover,
+article.recipe.cp .recipeList ul li a:hover{opacity:.7; text-decoration:none;}
+article.case.cp .caseList#yaku ul li a{color:#ed6d47;}
+article.case.cp .caseList#musu ul li a{color:#4f86c5;}
+article.case.cp .caseList#niru ul li a{color:#ea6188;}
+article.case.cp .caseList#ageru ul li a{color:#33b371;}
+article.case.cp .caseList#maku ul li a{color:#9070af;}
+article.recipe.cp .recipeList.byoin ul li a{color:#9e6958;}
+article.recipe.cp .recipeList.roken ul li a{color:#BE8916;}
+article.recipe.cp header.recipeIndex{margin:0 0 30px; padding:0; height:auto;}
+article.recipe.cp header h1{text-align:center; margin:0 0 30px;}
+article.recipe.cp nav.recipeTopNav{clear:both;}
+article.recipe.cp nav.recipeTopNav:after{clear:both; display:block; content:'';}
+article.recipe.cp nav.recipeTopNav ul{height:160px;}
+article.recipe.cp nav.recipeTopNav li{width:430px; height:160px; float:left; border-radius:5px; font-size:24px; font-weight:bold;}
+article.recipe.cp nav.recipeTopNav li a{border:3px #fff solid; border-radius:5px; box-shadow:0 0 4px rgba(0,0,0,.3), 0 0 4px rgba(0,0,0,.3) inset; display:block; height:160px; overflow:hidden; text-decoration:none; padding:0 20px; line-height:154px; color:#fff; text-align:right;}
+article.recipe.cp nav.recipeTopNav li:first-child{float:left; background:url(/saran/products/business/cookper/recipe/images/bg_btn_index01.png) no-repeat left bottom #9e6958;} 
+article.recipe.cp nav.recipeTopNav li:last-child{float:right; background:url(/saran/products/business/cookper/recipe/images/bg_btn_index02.png) no-repeat left bottom #92ab3c;}
+article.recipe.cp nav.recipeTopNav li a{background:url(/saran/products/business/cookper/recipe/images/icon_link_arr.png) no-repeat 400px 135px;}
+article.recipe.cp nav.recipeTopNav li:hover{opacity:.7;}
+
+@media screen and (max-width: 767px){
+/* case index */
+article.case.cp,
+article.recipe.cp{padding:20px; margin-bottom:0;}
+article.case.cp header.caseIndex,
+article.recipe.cp header.recipeIndex{margin-bottom:30px; padding-bottom:0;}
+article.case.cp header.caseIndex h1,
+article.recipe.cp header.recipeIndex h1{margin-bottom:20px;}
+article.case.cp header nav.caseAnchor{height:auto; margin-bottom:30px;}
+article.case.cp header nav.caseAnchor ul{height:auto;}
+article.case.cp header nav.caseAnchor ul li{width:48%; height:50px; float:left; text-align:center; margin:0 1% 10px;}
+article.case.cp .caseList,
+article.recipe.cp .recipeList{padding:0 10px 20px; margin-bottom:25px;}
+article.case.cp .caseList h2,
+article.recipe.cp .recipeList h2{margin:0 -10px 15px; padding:10px;}
+article.recipe.cp .recipeList p{margin-bottom:10px; padding:0 5px; font-size:14px;}
+article.case.cp .caseList ul li,
+article.recipe.cp .recipeList ul li{float:left; width:48%; margin:0 1% 10px;}
+article.case.cp .caseList ul li:nth-child(4n+1),
+article.recipe.cp .recipeList ul li:nth-child(4n+1){clear:none;}
+article.case.cp .caseList ul li:nth-child(2n+1),
+article.recipe.cp .recipeList ul li:nth-child(2n+1){clear:both;}
+article.recipe.cp header.recipeIndex{margin:0 -10px 20px;}
+article.recipe.cp nav.recipeTopNav ul{height:auto;}
+article.recipe.cp nav.recipeTopNav li{width:auto; height:auto; float:none; font-size:20px; display:block; margin-bottom:10px; text-align:center;}
+article.recipe.cp nav.recipeTopNav li a{height:auto; padding:20px 40px 20px 0; line-height:1.5;}
+article.recipe.cp nav.recipeTopNav li:first-child{float:none; background-size:contain;} 
+article.recipe.cp nav.recipeTopNav li:last-child{float:none; background-size:contain;}
+article.recipe.cp nav.recipeTopNav li a{background:url(/saran/products/business/cookper/recipe/images/icon_link_arr.png) no-repeat 95% center;}
+}
+
+/* case detail */
+article.case.cp header.caseDetail{margin-bottom:15px;}
+article.case.cp header.caseDetail h1{float:left; margin-bottom:20px; text-align:left;}
+article.case.cp header.caseDetail p.goList{float:right; margin:30px 0 15px; width:170px; height:35px; font-size:16px; font-weight:bold;}
+article.case.cp header.caseDetail p a{text-decoration:none; color:#013690; display:block; background:url(/saran/products/business/common/images/icon_arr_fwd_blue.png) no-repeat 10px center #fff; text-align:center; height:35px; line-height:33px; border:1px #b6bdcb solid;}
+article.case.cp header.caseDetail p a:hover{opacity:.7;}
+article.case.cp header.caseDetail div{padding:15px 20px; clear:both; color:#fff; position:relative; background:#ccc;}
+article.case.cp header.caseDetail div h2{font-size:20px; font-weight:bold; margin-bottom:5px;}
+article.case.cp .pager{text-align:center;}
+article.case.cp .pager li{display:inline-block; margin:0 1px;}
+article.case.cp .pager li a{padding:3px 7px; background:#ccc; border-radius:5px; color:#fff;}
+article.case.cp .pager li em,
+article.case.cp .pager li a:hover{padding:3px 7px; background:#fff; border-radius:5px; color:#ccc; text-decoration:none;}
+article.case.cp header.caseDetail div .pager{position:absolute; right:10px; top:10px; text-align:right;}
+article.case.cp section{background:#fff; padding:35px; margin-bottom:15px;}
+article.case.cp section .menu{width:266px; float:left;}
+article.case.cp section .menu h3{text-align:center; background:#ccc; color:#fff; font-size:18px; font-weight:bold; padding:5px; margin-bottom:7px;}
+article.case.cp section .menu dl{margin-bottom:25px;}
+article.case.cp section .menu dt{background:#ffdf79; font-weight:bold; text-align:center; padding:7px;}
+article.case.cp section .menu dd{border:1px #ffdf79 solid; padding:10px; font-size:16px; margin-bottom:7px;}
+article.case.cp section .use{width:517px; float:right;}
+article.case.cp section .use figure{margin-bottom:5px;}
+article.case.cp section .use figure img{display:block; margin-bottom:20px;}
+article.case.cp section .use figcaption{font-size:18px; font-weight:bold;}
+article.case.cp.yaku .pager li a{background:#ed6d47;}
+article.case.cp.yaku .pager li em,
+article.case.cp.yaku .pager li a:hover{color:#ed6d47; background:#fff;}
+article.case.cp.yaku header.caseDetail div{background:#ed6d47;}
+article.case.cp.yaku header.caseDetail div .pager li a{background:#ed6d47; border:1px #fff solid;}
+article.case.cp.yaku header.caseDetail div .pager li em,
+article.case.cp.yaku header.caseDetail div .pager li a:hover{color:#ed6d47; background:#fff;}
+article.case.cp.yaku section .menu h3{background:#ed6d47;}
+article.case.cp.musu .pager li a{background:#4f86c5;}
+article.case.cp.musu .pager li em,
+article.case.cp.musu .pager li a:hover{color:#4f86c5; background:#fff;}
+article.case.cp.musu header.caseDetail div{background:#4f86c5;}
+article.case.cp.musu header.caseDetail div .pager li a{background:#4f86c5; border:1px #fff solid;}
+article.case.cp.musu header.caseDetail div .pager li em,
+article.case.cp.musu header.caseDetail div .pager li a:hover{color:#4f86c5; background:#fff;}
+article.case.cp.musu section .menu h3{background:#4f86c5;}
+article.case.cp.niru .pager li a{background:#ea6188;}
+article.case.cp.niru .pager li em,
+article.case.cp.niru .pager li a:hover{color:#ea6188; background:#fff;}
+article.case.cp.niru header.caseDetail div{background:#ea6188;}
+article.case.cp.niru header.caseDetail div .pager li a{background:#ea6188; border:1px #fff solid;}
+article.case.cp.niru header.caseDetail div .pager li em,
+article.case.cp.niru header.caseDetail div .pager li a:hover{color:#ea6188; background:#fff;}
+article.case.cp.niru section .menu h3{background:#ea6188;}
+
+article.case.cp.ageru .pager li a{background:#33b371;}
+article.case.cp.ageru .pager li em,
+article.case.cp.ageru .pager li a:hover{color:#33b371; background:#fff;}
+article.case.cp.ageru header.caseDetail div{background:#33b371;}
+article.case.cp.ageru header.caseDetail div .pager li a{background:#33b371; border:1px #fff solid;}
+article.case.cp.ageru header.caseDetail div .pager li em,
+article.case.cp.ageru header.caseDetail div .pager li a:hover{color:#33b371; background:#fff;}
+article.case.cp.ageru section .menu h3{background:#33b371;}
+
+article.case.cp.maku .pager li a{background:#9070af;}
+article.case.cp.maku .pager li em,
+article.case.cp.maku .pager li a:hover{color:#9070af; background:#fff;}
+article.case.cp.maku header.caseDetail div{background:#9070af;}
+article.case.cp.maku header.caseDetail div .pager li a{background:#9070af; border:1px #fff solid;}
+article.case.cp.maku header.caseDetail div .pager li em,
+article.case.cp.maku header.caseDetail div .pager li a:hover{color:#9070af; background:#fff;}
+article.case.cp.maku section .menu h3{background:#9070af;}
+
+
+@media screen and (max-width: 767px){
+/* case detail */
+article.case.cp header.caseDetail h1{float:none; margin-bottom:0; text-align:center;}
+article.case.cp header.caseDetail p.goList{float:none; margin:10px 0 15px; width:100%; height:40px;}
+article.case.cp header.caseDetail p a{height:40px; line-height:38px;}
+article.case.cp header.caseDetail div{padding:15px;}
+article.case.cp header.caseDetail div h2{font-size:18px; margin-bottom:10px;}
+article.case.cp header.caseDetail div .pager{right:10px; top:15px;}
+article.case.cp section{padding:15px;}
+article.case.cp section .menu{width:100%; float:none; margin-bottom:15px;}
+article.case.cp section .menu h3{font-size:16px;}
+article.case.cp section .menu dl{margin-bottom:15px;}
+article.case.cp section .menu dd{font-size:14px;}
+article.case.cp section .use{width:100%; float:none;}
+article.case.cp section .use figure{margin-bottom:5px;}
+article.case.cp section .use figure img{margin-bottom:10px;}
+article.case.cp section .use figcaption{font-size:16px;}
+}
+
+/* recipe detail */
+article.recipe.cp header.recipeDetail{margin-bottom:15px;}
+article.recipe.cp header.recipeDetail h1{float:left; margin-bottom:20px; text-align:left;}
+article.recipe.cp header.recipeDetail p.goList{float:right; margin:30px 0 15px; width:220px; height:35px; font-size:16px; font-weight:bold;}
+article.recipe.cp header.recipeDetail p a{text-decoration:none; color:#013690; display:block; background:url(/saran/products/business/common/images/icon_arr_fwd_blue.png) no-repeat 10px center #fff; text-align:center; height:35px; line-height:33px; border:1px #b6bdcb solid;}
+article.recipe.cp header.recipeDetail p a:hover{opacity:.7;}
+article.recipe.cp section{background:#fff; padding:35px; margin-bottom:10px;}
+article.recipe.cp section header{background:#ccc; padding:10px 10px 10px 20px; position:relative; clear:both; margin-bottom:25px;}
+article.recipe.cp section header:after{content:''; display:block; clear:both;}
+article.recipe.cp section header h2{font-size:22px; color:#fff; font-weight:bold; float:left; line-height:35px;}
+article.recipe.cp section header .genre{float:right; border:2px #fff solid; padding:5px 15px; color:#fff; font-size:16px; font-weight:bold;}
+article.recipe.cp section h3{font-size:20px; font-weight:bold; margin-bottom:10px;}
+article.recipe.cp section .intro{clear:both; margin:20px 0;}
+article.recipe.cp section .intro:after{content:''; display:block; clear:both;}
+article.recipe.cp section .intro figure{width:517px; float:left;}
+article.recipe.cp section .intro .info{width:265px; float:right;}
+article.recipe.cp section .intro .info dl:after{content:''; display:block; clear:both;}
+article.recipe.cp section .intro .info dl{margin-bottom:10px; font-size:16px; line-height:27px;}
+article.recipe.cp section .intro .info dt{float:left; clear:both; padding-left:33px; color:#004ea2; font-weight:bold; width:135px; margin-bottom:5px; background-repeat:no-repeat; background-position:left center; min-height:27px;}
+article.recipe.cp section .intro .info dt.energy{background-image:url(/saran/products/business/cookper/recipe/images/icon_energy.png);}
+article.recipe.cp section .intro .info dt.salt{background-image:url(/saran/products/business/cookper/recipe/images/icon_salt.png);}
+article.recipe.cp section .intro .info dd{font-weight:bold; padding-left:135px; margin-bottom:5px; min-height:27px;}
+article.recipe.cp section .intro .advice{background:#e8f3ff; padding:0 10px 10px; border-radius:5px; overflow:hidden; margin-bottom:10px;}
+article.recipe.cp section .intro .advice h4{background:#004ea2; color:#fff; padding:8px; text-align:center; margin:0 -10px 10px; font-weight:bold;}
+article.recipe.cp section .intro .advice p{font-size:14px;}
+article.recipe.cp section .intro .info figure{width:100%;}
+article.recipe.cp section .recipe{clear:both;}
+article.recipe.cp section .recipe .ingredients,
+article.recipe.cp section .recipe .process{width:380px; float:left;}
+article.recipe.cp section .recipe .ingredients h3,
+article.recipe.cp section .recipe .process h3{color:#004ea2 !important; border-bottom:1px #004ea2 dotted; padding-bottom:10px; margin-bottom:10px; font-size:20px; font-weight:bold;}
+article.recipe.cp section .recipe .process{float:right;}
+article.recipe.cp section .recipe .ingredients p,
+article.recipe.cp section .recipe .process p{line-height:1.75;}
+article.recipe.cp section .recipe .process ol{list-style:none; line-height:1.5;}
+article.recipe.cp section .recipe .process ol li{ padding-left:1.5em; margin-bottom:.5em; position:relative;}
+article.recipe.cp section .recipe .process ol li i{position:absolute; left:0; top:.1em; color:#004ea2;}
+article.recipe.cp section.byoin header{background:#9e6958;}
+article.recipe.cp section.byoin h3{color:#9e6958;}
+article.recipe.cp section.roken header{background:#BE8916;}
+article.recipe.cp section.roken h3{color:#BE8916;}
+
+@media screen and (max-width: 767px){
+/* recipe detail */
+article.recipe.cp header.recipeDetail{margin-bottom:0;}
+article.recipe.cp header.recipeDetail h1{float:none; margin-bottom:0; text-align:center;}
+article.recipe.cp header.recipeDetail p.goList{float:right; margin:10px 0 15px; width:100%; height:40px; line-height:38px;}
+article.recipe.cp header.recipeDetail p a{height:40px;}
+article.recipe.cp section{padding:15px;}
+article.recipe.cp section header{padding:10px 10px 10px 20px; margin-bottom:20px; text-align:center;}
+article.recipe.cp section header h2{font-size:20px; float:none; line-height:auto; float:none;}
+article.recipe.cp section header .genre{float:none; border:2px #fff solid; clear:both;}
+article.recipe.cp section h3{font-size:18px;}
+article.recipe.cp section .intro figure{width:100%; float:none; margin-bottom:20px;}
+article.recipe.cp section .intro .info{width:100%; float:none;}
+article.recipe.cp section .intro .info dl{margin-bottom:20px;}
+article.recipe.cp section .intro .info figure{max-width:240px; margin:0 auto;}
+article.recipe.cp section .recipe .ingredients,
+article.recipe.cp section .recipe .process{width:100%; float:none;}
+article.recipe.cp section .recipe .ingredients h3,
+article.recipe.cp section .recipe .process h3{font-size:18px;}
+article.recipe.cp section .recipe .process{margin-top:20px;}
+article.recipe.cp section .recipe .ingredients p,
+article.recipe.cp section .recipe .process p{line-height:1.75;}
+article.recipe.cp section .recipe .process ol{list-style:none; line-height:1.5;}
+article.recipe.cp section .recipe .process ol li{ padding-left:1.5em; margin-bottom:.5em; position:relative;}
+article.recipe.cp section .recipe .process ol li i{position:absolute; left:0; top:.1em; color:#004ea2;}
+article.recipe.cp section.byoin header{background:#9e6958;}
+article.recipe.cp section.byoin h3{color:#9e6958;}
+article.recipe.cp section.roken header{background:#BE8916;}
+article.recipe.cp section.roken h3{color:#BE8916;}	
+}
+
+
+/* cp cut */
+article.brand.cp.cut{padding:30px 36px 40px 36px; margin-bottom:35px;}
+article.brand.cp header.meritIndex{margin-bottom:42px;}
+article.brand.cp header.meritIndex p{width:284px; height:40px; position:absolute; left:75px; top:192px; z-index:1; font-size:17px; font-weight:bold;}
+article.brand.cp header.meritIndex2 {position: relative;}
+article.brand.cp header.meritIndex2 p {top:160px;}
+article.brand.cp header.meritIndex p a{display:block; height:40px; line-height:36px; color:#013690; background:url(/saran/products/business/common/images/icon_arr_fwd_blue.png) no-repeat 10px center; text-align:center; border:2px #013690 solid; border-radius:5px; text-decoration:none;}
+article.brand.cp header.meritIndex p a:hover{background-color:rgba(255,255,255,.3);}
+article.brand.cp header.meritIndex h1{text-align:left; padding-left:67px;}
+article.brand.cp section.cpcutmerit{padding:44px 41px 40px 36px}
+article.brand.cp section.cpcutmerit .point{margin-bottom:25px;}
+article.brand.cp section.cpcutmerit .smallsize:after,
+article.brand.cp section.cpcutmerit .point:after{clear:both; display:block; content:"";}
+article.brand.cp section.cpcutmerit .point dl{width:265px; font-size:14px; float:left; margin-right:8px;}
+article.brand.cp section.cpcutmerit .point dl:nrth-child(2){ margin-right:10px;}
+article.brand.cp section.cpcutmerit .point dl:last-child{margin-right:0px;}
+article.brand.cp section.cpcutmerit .point dl dt{color:#ef8701; font-size:20px; padding-left:1.5em;  text-indent:-1.5em; font-weight:bold; margin-bottom:9px; line-height:1.2;} 
+article.brand.cp section.cpcutmerit .point dl dt + dd{margin-bottom:15px;}
+article.brand.cp section.cpcutmerit .point dl dt i{padding-right:0.5em;}
+article.brand.cp section.cpcutmerit .smallsize{margin-bottom:26px;}
+article.brand.cp section.cpcutmerit .smallsize:after{content:""; clear:both; display:block;}
+article.brand.cp section.cpcutmerit .smallsize h3{background:#d5e4fe; color:#013690; font-weight:bold; float:left; text-align:center; width:177px; line-height:99px; font-size:18px;}  
+article.brand.cp section.cpcutmerit .smallsize dl{border:1px solid #d5e4fe; padding:17px 248px 14px 200px; position:relative; height:99px;}
+article.brand.cp section.cpcutmerit .smallsize dl dt{font-size:16px; font-weight:bold; color:#013690; margin-bottom:8px;}
+article.brand.cp section.cpcutmerit .smallsize dl dd{font-size:14px; line-height:1.4;}
+article.brand.cp section.cpcutmerit .smallsize dl dd.sizeimg{position:absolute; top:30px; right:22px;}
+article.brand.cp section.cpcutmerit .cuthalf{width:398px; border:1px solid #fce6ce; padding:19px; float:left;}
+article.brand.cp section.cpcutmerit .cuthalf dl:after{content:""; display:block; clear:both;}
+article.brand.cp section.cpcutmerit .cuthalf h3{color:#ef8701; background:#fce6ce; line-height:33px; text-align:center; font-size:18px; font-weight:bold; margin:-19px; margin-bottom:19px;}
+article.brand.cp section.cpcutmerit .cuthalf h4{font-size:16px; font-weight:bold; margin-bottom:9px; clear:both;}
+article.brand.cp section.cpcutmerit .cuthalf p,
+article.brand.cp section.cpcutmerit .cuthalf dl{font-size:14px; color:#221815;}
+article.brand.cp section.cpcutmerit .cuthalf.size{margin-right:15px;}
+article.brand.cp section.cpcutmerit .cuthalf.size figure{float:right; width:212px; margin-left:11px;}
+article.brand.cp section.cpcutmerit .cuthalf.size p{float:left; width:134px; line-height:1.5;}
+article.brand.cp section.cpcutmerit .cuthalf.tips{padding:19px 19px 19px 16px;}
+article.brand.cp section.cpcutmerit .cuthalf.tips h3{margin:-19px -19px -19px -16px; margin-bottom:19px;}
+article.brand.cp section.cpcutmerit .cuthalf.tips h4{margin-top:20px;}
+article.brand.cp section.cpcutmerit .cuthalf.tips dl dt{float:left; width:207px; line-height:1.5;}
+article.brand.cp.cut section.links div{margin-right:15px;}
+article.brand.cp.cut section.links div:last-child{margin-right:0px;}
+article.brand.cp section.cpcutmerit .point02 p {float: right;}
+article.brand.cp section.cpcutmerit .point02 ul{ list-style: none}
+article.brand.cp section.cpcutmerit .point02 ul li{ font-size: 16px; margin-bottom: 10px; padding-left: 1em; /*1em（1文字）分、右に動かす*/
+    text-indent: -1em; /*最初の行だけ1em（1文字）分、左に動かす*/}
+article.brand.cp section.cpcutmerit .point02 ul li i { color: #033690;}
+article.brand.cp section.newarea {margin-bottom: 0px !important;}
+article.brand.cp section.newarea2 {padding-top: 0px !important;}
+article.brand.cp section.cpcutmerit h3 { font-size: 20px; font-weight: bold; color: #003292; margin-bottom: 10px;}
+
+@media screen and (max-width: 767px){
+article.brand.cp section.newarea {margin-bottom: 0px !important;}
+article.brand.cp section.newarea2 {padding-top: 0px !important; margin-top: 0px !important;}
+article.brand.cp section.cpcutmerit2 {margin-top: 0px !important;}
+article.brand.cp.cut{padding:20px; margin-bottom:0px;}
+article.brand.cp header.meritIndex{margin:0; padding:0; padding-bottom:70px; height:auto; position:relative;}
+article.brand.cp header.meritIndex h1{width:100%; height:auto; padding-left:0px;}
+article.brand.cp header.meritIndex p{width:100%; padding:0; height:40px; top:auto; bottom:10px; left:0;}
+article.brand.cp header.meritIndex figure{position:relative; right:auto; top:auto; width:100%; height:auto}
+article.brand.cp section.cpcutmerit{padding:0px 15px 5px;}
+article.brand.cp section.cpcutmerit{margin:30px 0; position:relative; text-align:center;}
+article.brand.cp section.cpcutmerit h2{padding:5px 25px; display:inline-block; text-align:center; margin:0 auto; position:relative; height:auto; border-radius:14px; left:auto; top:-18px; font-size:14px; line-height:1.5;}
+article.brand.cp section.cpcutmerit .point dl{width:100%; text-align:left; margin-bottom:20px;}
+article.brand.cp section.cpcutmerit .smallsize h3{float:none; width:100%; line-height:50px;}
+article.brand.cp section.cpcutmerit .smallsize dl{padding:10px; text-align:left; height:auto;}
+article.brand.cp section.cpcutmerit .smallsize dl dt{margin-bottom:15px;}
+article.brand.cp section.cpcutmerit .smallsize dl dd.sizeimg{position:static; margin-top:15px;}
+article.brand.cp section.cpcutmerit .point dl:last-child{margin:0px;}
+article.brand.cp section.cpcutmerit .cuthalf{margin-right:0px; width:100%; padding:10px; height:auto !important;} 
+article.brand.cp section.cpcutmerit .cuthalf h3{margin:-10px; line-height:1.5; padding:10px;}
+article.brand.cp section.cpcutmerit .cuthalf h4{text-align:left;}
+article.brand.cp section.cpcutmerit .cuthalf.tips h3{margin:-10px;}
+article.brand.cp section.cpcutmerit .cuthalf.size{margin-bottom:25px; margin-right:0px;}
+article.brand.cp section.cpcutmerit .cuthalf.size p{width:100%; float:none; margin:20px 0 10px; text-align:left;}
+article.brand.cp section.cpcutmerit .cuthalf.size figure{float:none; width:100%; margin-left:0px;}
+article.brand.cp section.cpcutmerit .cuthalf.tips{padding:10px; margin-bottom:10px;}
+article.brand.cp section.cpcutmerit .cuthalf.tips dl dt{float:none; width:100%; text-align:left; margin-bottom:15px;}
+	article.brand.cp section.cpcutmerit .point02 { text-align: left;}
+	article.brand.cp section.cpcutmerit .point02 p {width: 100%; clear: both;}
+}
+
+
+/* cp custom */
+article.brand.cp.custom{/*padding:30px 36px 40px 36px;*/ margin-bottom:35px;}
+article.brand.cp section.cpcustommerit{padding:30px 18px 30px 18px}
+article.brand.cp section.cpcustommerit .sp_m {display: none}
+article.brand.cp section.cpcustommerit .box01 {}
+article.brand.cp section.cpcustommerit .box01 dl { display: block; border: #F00000 solid 1px;}
+article.brand.cp section.cpcustommerit .box01 dl dt { display: block; width: 50%; background-color: #F00000; font-weight: bold; font-size: 20px; color: #FFFFFF; text-align: center; padding-top: 10px; padding-bottom:10px; float: left; }
+article.brand.cp section.cpcustommerit .box01 dl dd { display: block; width: 49%; float: right; text-align:center; padding-top: 12px; padding-bottom:5px; }
+article.brand.cp section.cpcustommerit .text01 { margin-top: 20px; font-size:16px; }
+article.brand.cp section.cpcustommerit .box02 { margin-top: 20px;}
+article.brand.cp section.cpcustommerit .box02 ul { list-style: none;}
+article.brand.cp section.cpcustommerit .box02 li { width:210px; text-align: center; float: left; margin-right: 2px; }
+article.brand.cp section.cpcustommerit .box02 li:last-child {margin-right: 0px;}
+article.brand.cp section.cpcustommerit .box03 {}
+article.brand.cp section.cpcustommerit .box03 div{ display: block; width: 424px; float: left; margin-left: 110px;}
+article.brand.cp section.cpcustommerit .box03 div:last-child{ display: block; width: 210px; margin-left: 30px;}
+article.brand.cp section.cpcustommerit .box03 div ul {list-style: none;}
+article.brand.cp section.cpcustommerit .box03 div li.img{ width: 210px; float: left; text-align: center; margin-left: 2px;}
+article.brand.cp section.cpcustommerit .box03 div p.box03text{ padding-top: 20px; margin-bottom: 5px; color: #01368F; font-size: 22px; font-weight: bold;}
+article.brand.cp section.cpcustommerit .box04 {}
+article.brand.cp section.cpcustommerit .box04 div{float: left;}
+article.brand.cp section.cpcustommerit .box04 div:first-child{ width: 312px;}
+article.brand.cp section.cpcustommerit .box04 div:last-child{width: 520px; padding-left: 20px;}
+article.brand.cp section.cpcustommerit .box04 div h4{ font-size: 18px; font-weight: bold; margin-top: 10px; margin-bottom: 10px;}
+article.brand.cp section.cpcustommerit .box04 div h4 span {color: #E5007F;}
+article.brand.cp section.cpcustommerit .box04 div h4 small {font-size: 14px;}
+article.brand.cp section.cpcustommerit h3 { margin-top: 10px; margin-bottom: -10px; font-size:22px; font-weight: bold; text-align: center; color:#054BA1; }
+article.brand.cp section.cpcustommerit hr { border: dotted 1px #054BA1; margin-top: 20px;}
+@media screen and (max-width: 767px){
+	article.brand.cp.custom{padding:20px; margin-bottom:0px;}
+	article.brand.cp section.cpcustommerit{padding:0px 15px 5px;}
+    article.brand.cp section.cpcustommerit{margin:30px 0; position:relative; text-align:center;}
+	article.brand.cp section.cpcustommerit .sp_m {display:block; height: 20px;}
+	article.brand.cp section.cpcustommerit .box02 {}
+	article.brand.cp section.cpcustommerit .box02 ul{}
+	article.brand.cp section.cpcustommerit .box02 ul li{ width: 49%;}
+	article.brand.cp section.cpcustommerit .box02 ul li img { width: 100%;}
+	article.brand.cp section.cpcustommerit .box03 {}
+	article.brand.cp section.cpcustommerit .box03 div { width: 100%; margin-left: 0px;}
+	article.brand.cp section.cpcustommerit .box03 div:last-child {width: 100%; margin-left: 0px; margin-top: 20px}
+	article.brand.cp section.cpcustommerit .box03 div:last-child img {width: 50%;}
+	article.brand.cp section.cpcustommerit .box03 div li.img { width: 49%}
+	article.brand.cp section.cpcustommerit .box04 {}
+    article.brand.cp section.cpcustommerit .box04 div{float: left;}
+    article.brand.cp section.cpcustommerit .box04 div:first-child{ width: 100%;}
+    article.brand.cp section.cpcustommerit .box04 div:last-child{width: 100%; padding-left: 0px;}
+	article.brand.cp section.cpcustommerit .box04 div:last-child img {margin-top: 10px;}
+    article.brand.cp section.cpcustommerit .box04 div h4{ font-size: 18px; font-weight: bold; margin-top: 10px; margin-bottom: 10px; text-align: left}
+    article.brand.cp section.cpcustommerit .box04 div h4 span {color: #E5007F;}
+	article.brand.cp section.cpcustommerit .box04 div p {text-align: left; margin-bottom: 10px;}
+}
+
+/* cp separate_cup */
+article.brand.cp.separate_cup{/*padding:30px 36px 40px 36px;*/ margin-bottom:35px;}
+article.brand.cp section.cpseparate_cupmerit{padding:30px 18px 30px 18px}
+article.brand.cp section.cpseparate_cupmerit .box01 {}
+article.brand.cp section.cpseparate_cupmerit .box01 ul{ list-style: none; float: left;}
+article.brand.cp section.cpseparate_cupmerit .box01 ul li{ font-size: 18px; margin-top: 7px;}
+article.brand.cp section.cpseparate_cupmerit .box01 ul li span {color: #033690}
+article.brand.cp section.cpseparate_cupmerit .box01 img {float: right;}
+article.brand.cp section.cpseparate_cupmerit .box02 { margin-top: 20px;}
+article.brand.cp section.cpseparate_cupmerit .box02 ul { list-style: none;}
+article.brand.cp section.cpseparate_cupmerit .box02 li { width:210px; text-align: center; float: left; margin-right: 2px; }
+article.brand.cp section.cpseparate_cupmerit .box02 li:last-child {margin-right: 0px;}
+article.brand.cp section.cpseparate_cupmerit h3 { margin-top: 10px; margin-bottom: -10px; font-size:22px; font-weight: bold; text-align: center; color:#054BA1; }
+
+article.brand.cp section.cpseparate_cupmerit dl {display: flex; position: relative; border: #D4E4FE 1px solid; margin-top: 20px;}
+article.brand.cp section.cpseparate_cupmerit dl dt{display:block; width: 15%; padding: 16px 4px 16px 4px; float: left; background:#D4E4FE; font-size: 18px; font-weight: bold; color:  #01368F; text-align: center;}
+article.brand.cp section.cpseparate_cupmerit dl dd{display:block; width: 55%; float: left; padding: 10px 10px 10px 10px; }
+article.brand.cp section.cpseparate_cupmerit dl dd.ce_btn {width: 30%;}
+article.brand.cp section.cpseparate_cupmerit dl dd.ce_btn a { display:block;  border: #033690 solid 2px; padding: 15px; text-decoration: none; font-size:16px; color:  #033690; text-align: center; 
+
+border-radius: 5px;        /* CSS3草案 */  
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 5px;   /* Firefox用 */  }
+article.brand.cp section.cpseparate_cupmerit dl dd.ce_btn a:hover {opacity:0.5;}
+
+@media screen and (max-width: 767px){
+	article.brand.cp.separate_cup{padding:20px; margin-bottom:0px;}
+	article.brand.cp section.cpseparate_cupmerit{padding:0px 15px 5px;}
+    article.brand.cp section.cpseparate_cupmerit{margin:30px 0; position:relative; text-align:center;}
+	article.brand.cp header.meritIndex2{ padding:0 0 55px 0 !important; height:auto; position:relative;}
+	article.brand.cp section.cpseparate_cupmerit .box01 ul li { text-align: left;}
+	article.brand.cp section.cpseparate_cupmerit .box02 ul li{ width: 49%;}
+	article.brand.cp section.cpseparate_cupmerit .box02 ul li img { width: 100%;}
+	article.brand.cp section.cpseparate_cupmerit dl {display: block;}
+	article.brand.cp section.cpseparate_cupmerit dl dt { width: 100%;}
+	article.brand.cp section.cpseparate_cupmerit dl dd {width: 100%}
+	article.brand.cp section.cpseparate_cupmerit dl dd.ce_btn {width: 100%} 
+}
+
+
+
+
+/* voice top */
+article.voice.cp{padding:35px; margin-bottom:50px;}
+article.voice.cp header{margin-bottom:20px; width:100%; display:table;}
+article.voice.cp header h1{font-size:30px; font-weight:bold; color:#013690; display:table-cell; vertical-align:middle; padding-left:40px;}
+article.voice.cp header figure{display:table-cell; vertical-align:middle; text-align:right;}
+article.voice.cp section .voicetopNav{background:#fff; position:relative; margin-bottom:15px;}
+article.voice.cp section .voicetopNav:after{content:""; display:block; clear:both;}
+article.voice.cp section .voicetopNav div{float:left; width:445px;}
+article.voice.cp section .voicetopNav div h2{position:absolute; top:21px; left:28px; font-size:23px; font-weight:bold; color:#fff;}
+article.voice.cp section .voicetopNav div figure img{display:block;}
+article.voice.cp section .voicetopNav dl{padding:55px 0 0 30px; width:440px; float:right;}
+article.voice.cp section .voicetopNav dl dt{font-size:14px; line-height:32px; margin-bottom:11px; color:#fff; text-align:center; font-weight:bold; padding:0 25px; float:left;}
+article.voice.cp section .voicetopNav dl dd{font-size:19px; font-weight:bold; line-height:1.5; clear:both;}
+article.voice.cp section .voicetopNav .morebtn{position:absolute; bottom:11px; right:10px; font-size:14px; font-weight:bold; line-height:34px;}
+article.voice.cp section .voicetopNav .morebtn span{width:115px;  display:block; padding-left:25px;}
+article.voice.cp section .voicetopNav a{text-decoration:none;}
+article.voice.cp section .voicetopNav a:hover{opacity:.7;}
+article.voice.cp section .voicetopNav.kyushoku{border:1px solid #e73278;}
+article.voice.cp section .voicetopNav.kyushoku dl{color:#e73278;}
+article.voice.cp section .voicetopNav.kyushoku dl dt{background:#e73278; }
+article.voice.cp section .voicetopNav.kyushoku dl dd{padding-right:28px;}
+article.voice.cp section .voicetopNav.kyushoku .morebtn span{border:1px solid #e73278; border-radius:3px; background:url(/saran/products/business/cookper/voice/images/icon_arr_fwd_pink.png) 12px center no-repeat; line-height:34px; color:#e73278; text-decoration:none;}
+article.voice.cp section .voicetopNav.kyushoku .morebtn a:hover{opacity:.7;}
+article.voice.cp section .voicetopNav.restaurant{border:1px solid #013690;}
+article.voice.cp section .voicetopNav.restaurant dl{color:#013690;}
+article.voice.cp section .voicetopNav.restaurant dl dt{background:#013690; }
+article.voice.cp section .voicetopNav.restaurant dl dd{padding-right:33px;}
+article.voice.cp section .voicetopNav.restaurant .morebtn span{border:1px solid #013690; border-radius:3px; background:url(/saran/products/business/common/images/icon_arr_fwd_blue.png) 12px center no-repeat; line-height:34px; color:#013690; text-decoration:none;}
+/* voice detail */
+article.voice.cp section.voiceDetail{background:#fff; padding:35px 40px; position:relative;}
+article.voice.cp section.voiceDetail header{background:#ccc; padding:10px 10px 10px 20px; position:relative; clear:both; margin-bottom:20px;}
+article.voice.cp section.voiceDetail header:after{content:''; display:block; clear:both;}
+article.voice.cp section.voiceDetail header h2{font-size:23px; color:#fff; font-weight:bold; float:left; line-height:35px;}
+article.voice.cp section.voiceDetail header .genre{float:right; border:2px #fff solid; padding:5px 15px; color:#fff; font-size:16px; font-weight:bold;}
+article.voice.cp section.voiceDetail .mainImage{clear:both; position:relative; /*margin-bottom:-25px;*/ z-index:0;}
+article.voice.cp section.voiceDetail .mainImage figure:after{content:''; display:block; clear:both;}
+article.voice.cp section.voiceDetail .mainImage h3{font-size:23px; line-height:1.4; font-weight:bold; position:absolute; z-index:1;}
+article.voice.cp section.voiceDetail .mainImage figure{z-index:0; position:relative; left:0; top:0; text-align:right;}
+article.voice.cp section.voiceDetail .mainImage figure img{display:block; float:right;}
+article.voice.cp section.voiceDetail .comment{width:390px; float:left; position:relative; z-index:2; margin-top:-205px;}
+article.voice.cp section.voiceDetail .comment figure{height:180px; padding:20px 20px 0;}
+article.voice.cp section.voiceDetail .comment figure img{float:left;}
+article.voice.cp section.voiceDetail .comment figcaption{padding:30px 0 0 160px;}
+article.voice.cp section.voiceDetail .comment figcaption p{font-size:18px; line-height:1.4; margin-bottom:.5em;}
+article.voice.cp section.voiceDetail .comment figcaption p.title{font-size:14px;}
+article.voice.cp section.voiceDetail .comment .content{background:#ecf1bb; padding:25px; border-radius:4px;}
+article.voice.cp section.voiceDetail .comment p{line-height:1.7; font-size:14px;}
+article.voice.cp section.voiceDetail .recipe{float:right; width:385px; position:relative; z-index:10; margin-top:-25px;}
+article.voice.cp section.voiceDetail .recipe h4{font-size:20px; margin-bottom:10px; font-weight:bold; border:1px dotted #e73278; border-width:1px 0; padding:10px 0;}
+article.voice.cp section.voiceDetail .recipe h5{font-size:16px; color:#010101; font-weight:bold; margin-bottom:6px;}
+article.voice.cp section.voiceDetail .recipe p{font-size:14px; line-height:1.6;}
+article.voice.cp section.voiceDetail .recipe figure{float:right; margin:5px 0 15px 15px;}
+article.voice.cp section.kyushoku header{background:#e73278;}
+article.voice.cp section.kyushoku h3{color:#e73278;}
+article.voice.cp section.kyushoku .recipe h4{color:#e73278;}
+article.voice.cp section.restaurant header{background:#013690;}
+article.voice.cp section.restaurant h3{color:#013690;}
+article.voice.cp section.restaurant .recipe h4{color:#013690;}
+article.voice.cp p.goList{float:right; margin-top:20px; width:200px; height:35px; font-size:16px; font-weight:bold;}
+article.voice.cp p.goList a{text-decoration:none; color:#013690; display:block; background:url(/saran/products/business/common/images/icon_arr_fwd_blue.png) no-repeat 10px center #fff; text-align:center; height:35px; line-height:33px; border:1px #013690 solid;}
+article.voice.cp p.goList a:hover{opacity:.7;}
+
+@media screen and (max-width: 767px){
+article.voice.cp{padding:20px; margin-bottom:0px;}
+article.voice.cp header{display:block;}
+article.voice.cp header h1{font-size:24px; display:block; padding-left:0; text-align:center; margin-bottom:20px;}
+article.voice.cp header figure{display:block; text-align:center; padding:0 20px;}
+article.voice.cp section .voicetopNav div{float:none; width:100%;}
+article.voice.cp section .voicetopNav div figure{width:100%;}
+article.voice.cp section .voicetopNav dl{padding:15px;}
+article.voice.cp section .voicetopNav.restaurant dl dd,
+article.voice.cp section .voicetopNav.kyushoku dl dd{padding:0;}
+article.voice.cp section .voicetopNav dl{width:100%;}
+article.voice.cp section .voicetopNav dl dt{font-size:13px; width:100%;}
+article.voice.cp section .voicetopNav dl dd{font-size:16px;}
+article.voice.cp section .voicetopNav .morebtn{position:relative; bottom:auto; right:auto; margin:0 10px 10px 10px; clear:both;}
+article.voice.cp section .voicetopNav .morebtn span{width:100%; text-align:center; padding:0;}
+article.voice.cp section .voicetopNav div h2{font-size:16px; position:absolute; top:10px; left:10px;}
+article.voice.cp section .voicetopNav:last-child{margin-bottom:0px;}
+article.voice.cp section.voiceDetail{padding:15px;}
+article.voice.cp section.voiceDetail header{padding:10px;}
+article.voice.cp section.voiceDetail header h2{font-size:16px; float:none; line-height:1.4; margin-bottom:10px;}
+article.voice.cp section.voiceDetail header .genre{float:none;padding:5px; font-size:14px; text-align:center;}
+article.voice.cp section.voiceDetail .mainImage{margin-bottom:20px;}
+article.voice.cp section.voiceDetail .mainImage h3{font-size:18px; position:static;}
+article.voice.cp section.voiceDetail .mainImage h3 br{display:none;}
+article.voice.cp section.voiceDetail .mainImage figure{text-align:center; left:auto; top:auto;}
+article.voice.cp section.voiceDetail .mainImage figure img{float:none;}
+article.voice.cp section.voiceDetail .comment{width:100%; float:none; margin-top:0;}
+article.voice.cp section.voiceDetail .comment figure{height:auto; padding:0; clear:both;}
+article.voice.cp section.voiceDetail .comment figure:after{content:''; display:block; clear:both;}
+article.voice.cp section.voiceDetail .comment figure img{width:40%; margin-right:10px; display:block;}
+article.voice.cp section.voiceDetail .comment figcaption{padding:0;}
+article.voice.cp section.voiceDetail .comment figcaption p{font-size:16px;}
+article.voice.cp section.voiceDetail .comment figcaption p.title{font-size:12px;}
+article.voice.cp section.voiceDetail .comment .content{padding:15px; margin-bottom:20px; }
+article.voice.cp section.voiceDetail .recipe{float:none; width:100%;  margin-top:auto;}
+article.voice.cp section.voiceDetail .recipe h4{font-size:18px; padding:5px 0;}
+article.voice.cp section.voiceDetail .recipe h5{font-size:16px;}
+article.voice.cp section.voiceDetail .recipe figure{margin:5px 0 5px 10px;}
+article.voice.cp p.goList{float:none; width:100%; height:40px;}
+}
+
+/* guide */
+article.guide.cp{padding:20px 38px 43px 36px; margin-bottom:30px;}
+article.guide.cp header{padding-left:31px; margin-bottom:19px;}
+article.guide.cp section.feature{background:url(/saran/products/business/cookper/guide/images/bg_cp_sep_spcopy.jpg) left top ; padding:20px 37px 24px 31px;  margin-bottom:39px; border:10px solid #fff;}
+article.guide.cp section.feature p{color:#013690; font-size:16px; line-height:1.8; margin-bottom:20px;} 
+article.guide.cp section.feature div{border-top:1px dotted #023690; padding-top:22px;}
+article.guide.cp section.feature div:after{content:""; clear:both; display:block;}
+article.guide.cp section.feature div figure{float:left; margin:0 14px 0px -3px;}
+article.guide.cp section.feature div ol{list-style:none; line-height:1.5; width:523px; float:right; font-size:16px;}
+article.guide.cp section.feature div ol li{padding-left:1em; position:relative;}
+article.guide.cp section.feature div ol li i{position:absolute; left:0; top:0px; color:#004ea2;}
+
+article.guide.cp section.feature .youtubearea { margin-top: 0px !important; border-top: none !important;}
+article.guide.cp section.feature .youtubearea p { float: left;}
+article.guide.cp section.feature .youtubearea p:first-of-type { width: 400px}
+article.guide.cp section.feature .youtubearea p:last-of-type { width: 375px; margin-left: 20px;}
+
+article.guide.cp section{background:#fff; margin-bottom:37px; position:relative;}
+article.guide.cp section h2{background:#013690; padding:0 25px; height:36px; line-height:36px; border-radius:18px; color:#fff; font-size:16px; font-weight:bold; display:inline-block; position:absolute; left:15px; top:-18px;}
+article.guide.cp section{padding:47px 60px 31px 60px;}
+article.guide.cp section ul.itemlist{clear:both; overflow:hidden;}
+article.guide.cp section ul.itemlist:after{content:''; display:block; clear:both;}
+article.guide.cp section ul.itemlist li{width:246px; margin:0 14px 14px 0; float:left; list-style:none; overflow:hidden; text-align:center; background:#fce6ce;}
+article.guide.cp section ul.itemlist li:nth-child(3n){margin-right:0px;}
+article.guide.cp section ul.itemlist li img{display:block;}
+article.guide.cp section ul.itemlist li figcaption{text-align:center; font-size:13px; font-weight:bold; color:#000; position:relative; padding:9px 5px;}
+article.guide.cp section ul.itemlist li figcaption span{font-size:14px; font-weight:normal; color:#000; display:block;}
+article.guide.cp section.usedguide{padding:47px 58px 39px 60px;}
+article.guide.cp section.usedguide:after{content:""; display:block; clear:both;}
+article.guide.cp section.usedguide div{width:373px; float:left; margin-right:22px; margin-bottom: 22px;}
+article.guide.cp section.usedguide div:nth-of-type(2n+0){margin-right:0px;}
+
+article.guide.cp section.usedguide div p{font-size:16px; line-height:1.3; padding:0 12px;}
+article.guide.cp section.usedguide div a:hover{text-decoration:none;}
+article.guide.cp.used{padding:20px 38px 36px 36px; margin-bottom:18px;}
+article.guide.cp section.guideDetail{padding:0; margin-bottom:0;}
+article.guide.cp section.guideDetail header{position:relative; clear:both; margin:0; padding:0;}
+article.guide.cp section.guideDetail header h2{font-size:23px; color:#fff; font-weight:bold; float:none; position:static; top:auto; left:auto; width:100%; border-radius:0; line-height:57px; height:57px; text-align:center;}
+article.guide.cp section.guideDetail header h2 i{font-weight:bold; padding-right:1em;}
+article.guide.cp section.guideDetail header h3{font-size:23px; line-height:1.4; position:absolute; top:100px; left:225px; color:#013690; font-weight:bold; z-index:2;}
+article.guide.cp section.guideDetail header:after{content:''; display:block; clear:both;}
+article.guide.cp section.guideDetail header figure{position:relative;  z-index:1; width:50%; margin-top:10px;}
+article.guide.cp section.guideDetail header figure img{display:block;}
+article.guide.cp section.guideDetail header .cook{width:50%; float:left; padding:0 0 0 38px;}
+article.guide.cp section.guideDetail header .cook figcaption{position:absolute; right:0; bottom:40px; width:170px;}
+article.guide.cp section.guideDetail header .cook figcaption p{margin-bottom:10px; font-size:16px;}
+article.guide.cp section.guideDetail header .cook figcaption a{display:block; height:35px; line-height:33px; color:#013690; background:url(/saran/products/business/common/images/icon_arr_fwd_blue.png) no-repeat 10px center; text-align:center; border:1px #013690 solid; text-decoration:none; width:157px; font-weight:bold; font-size:14px;}
+article.guide.cp section.guideDetail header .dish{float:right;}
+article.guide.cp section.guideDetail header .dish img{float:right;}
+article.guide.cp section.guideDetail header p a:hover{opacity:.7;}
+article.guide.cp section.guideDetail .inner{margin:0 38px; padding:35px 0; border-top:1px dotted #023690;}
+article.guide.cp section.guideDetail .inner .txt{float:right; width:370px; padding-right:10px; font-size:14px; line-height:1.7;}
+article.guide.cp section.guideDetail .inner .txt h3{font-size:18px; font-weight:bold; line-height:1.4; margin-bottom:15px}
+article.guide.cp section.guideDetail .inner.recipe{padding-top:18px;}
+article.guide.cp section.guideDetail .inner.recipe h3{font-size:20px; font-weight:bold; text-align:center; margin-bottom:20px;}
+article.guide.cp section.guideDetail .inner.recipe ul li{padding-left:1em; list-style:none; position:relative; margin:0 0 .5em;}
+article.guide.cp section.guideDetail .inner.recipe ul li:before{content:'●'; display:inline-block; width:1em; font-size:10px; position:absolute; left:0; top:.25em;}
+article.guide.cp section.guideDetail .inner.recipe ul.itemlist{clear:both;}
+article.guide.cp section.guideDetail .inner.recipe ul.itemlist li{margin:0 18px 15px 0; width:258px; float:left; background:transparent; padding:0; text-indent:0;}
+article.guide.cp section.guideDetail .inner.recipe ul.itemlist li:nth-child(3n){margin-right:0;}
+article.guide.cp section.guideDetail .inner.recipe ul.itemlist li:before{content:'';}
+div.pager.cp ul.usedFootbtn{width:960px; margin:0 auto; padding-bottom:59px; list-style:none;}
+div.pager.cp ul.usedFootbtn:after{content:""; clear:both; display:block;}
+div.pager.cp ul.usedFootbtn li{color:#013690; line-height:34px; width:173px;}
+div.pager.cp ul.usedFootbtn li{width:173px; height:34px; font-size:14px; font-weight:bold; border:1px #b6bdcb solid; background-color:#fff; text-align:center;}
+div.pager.cp ul.usedFootbtn li:nth-child(1){float:left;}
+div.pager.cp ul.usedFootbtn li:nth-child(2){float:right;}
+div.pager.cp ul.usedFootbtn li:nth-child(1) a{background:url(/saran/products/business/common/images/icon_arr_left_blue.png) no-repeat 10px center; }
+div.pager.cp ul.usedFootbtn li:nth-child(2) a{background:url(/saran/products/business/common/images/icon_arr_fwd_blue.png) no-repeat 156px center; }
+div.pager.cp ul.usedFootbtn li a{text-decoration:none; color:#013690; display:block; text-align:center; height:35px; line-height:33px;}
+div.pager.cp ul.usedFootbtn li a:hover{opacity:.7;}
+
+
+
+@media screen and (max-width: 767px){
+article.guide.cp{padding:20px; margin-bottom:0px;}
+article.guide.cp section{padding:0 10px 5px;}
+article.guide.cp section.usedguide{padding:0 10px 20px;}
+article.guide.cp header{padding-left:0px;}
+article.guide.cp section h2{display:inline-block; position:relative; left:auto; top:-18px; z-index:1; font-size:14px; line-height:1.5; padding:5px 30px; height:auto;}
+article.guide.cp section.feature{padding:10px; border:5px solid #fff; background:url(/saran/products/business/cookper/guide/images/bg_cp_sep_spcopy.jpg) left top repeat-y; background-size:contain; position:relative;}
+article.guide.cp section.feature .youtubearea {}
+article.guide.cp section.feature .youtubearea p:first-of-type { width: 100%}
+article.guide.cp section.feature .youtubearea p:last-of-type { width: 100%; margin-left: 0px;}
+article.guide.cp section.feature .youtubearea p iframe { width: 100%} 
+article.guide.cp section.feature p{margin-bottom:15px; font-size:14px;}
+article.guide.cp section.feature div{padding-top:10px;}
+article.guide.cp section.feature div figure{margin:0;}
+article.guide.cp section ul.itemlist li figcaption span{font-size:12px;}
+article.guide.cp section.feature div ol,
+article.guide.cp section.feature div figure{float:none; }
+article.guide.cp section.feature div ol{width:100%; margin-top:20px; font-size:14px;}
+article.guide.cp section.feature div ol li{padding-left:1.5em; margin-bottom:5px;}
+article.guide.cp section.feature div ol li i{margin-right:0.5em;}
+article.guide.cp section ul.itemlist li{width:48%; margin:0 1% 10px;}
+article.guide.cp section ul.itemlist li:nth-child(3n){margin:0 1% 10px;}
+.caselist ul li figure figcaption br,
+.itemlist ul li figure figcaption br{display:none;}
+article.guide.cp section.usedguide h2{padding:5px 15px; width:100%; text-align:center;}
+article.guide.cp section.usedguide div{float:none; width:100%; margin-bottom:20px;}
+article.guide.cp section.usedguide div:last-child{margin-bottom:0px;}
+article.guide.cp section.usedguide div p{font-size:14px;}
+article.guide.cp.used{padding:20px; margin-bottom:0px;}
+
+article.guide.cp section.guideDetail header{}
+article.guide.cp section.guideDetail header h2{font-size:16px; line-height:1.4; height:auto; padding:10px;}
+article.guide.cp section.guideDetail header h2 i{display:block; padding-right:0; font-size:14px;}
+article.guide.cp section.guideDetail header h3{font-size:18px; position:static; top:auto; left:auto; padding:10px 15px;}
+article.guide.cp section.guideDetail header h3 br{display:none;}
+article.guide.cp section.guideDetail header figure{width:auto; margin-top:0; clear:both;}
+article.guide.cp section.guideDetail header figure:after{content:''; display:block; clear:both;}
+article.guide.cp section.guideDetail header figure img{}
+article.guide.cp section.guideDetail header .cook{width:auto; float:none; padding:0; border-bottom:1px #ccc dotted; margin-bottom:10px;}
+article.guide.cp section.guideDetail header .cook img{width:auto; margin:0; padding:0 0 0 15px; float:left; width:45%;}
+article.guide.cp section.guideDetail header .cook figcaption{position:relative; right:auto; bottom:auto; width:auto; text-align:center; padding:30px 15px 0 10px; text-align:left; width:55%; float:left;}
+article.guide.cp section.guideDetail header .cook figcaption p{font-size:12px;}
+article.guide.cp section.guideDetail header .cook figcaption a{height:40px; line-height:38px; color:#013690; background-position:15px center; width:100%;}
+article.guide.cp section.guideDetail header .dish{float:none;}
+article.guide.cp section.guideDetail header .dish img{float:none;}
+article.guide.cp section.guideDetail .inner{margin:0 15px; padding:15px 0;}
+article.guide.cp section.guideDetail .inner .txt{float:none; padding-right:0; width:auto; margin-bottom:15px;}
+article.guide.cp section.guideDetail .inner .txt h3{font-size:16px; margin-bottom:10px;}
+article.guide.cp section.guideDetail .inner.recipe{padding-top:15px;}
+article.guide.cp section.guideDetail .inner.recipe h3{font-size:16px; margin-bottom:10px;}
+article.guide.cp section.guideDetail .inner.recipe ul.itemlist li{margin:0 0 10px 1%; width:49%;}
+article.guide.cp section.guideDetail .inner.recipe ul.itemlist li:nth-child(2n+1){margin:0 1% 10px 0;}
+
+div.pager.cp ul.usedFootbtn{width:100%; padding:20px 30px; list-style:none;}
+div.pager.cp ul.usedFootbtn:after{content:""; clear:both; display:block;}
+div.pager.cp ul.usedFootbtn li{color:#013690; line-height:34px; width:173px; font-size:12px;}
+div.pager.cp ul.usedFootbtn li{width:48%; height:34px; margin-bottom:10px; font-weight:bold; border:1px #b6bdcb solid; background-color:#fff; text-align:center;}
+div.pager.cp ul.usedFootbtn li:nth-child(1) a{background:url(/saran/products/business/common/images/icon_arr_left_blue.png) no-repeat 5% center; }
+div.pager.cp ul.usedFootbtn li:nth-child(2) a{background:url(/saran/products/business/common/images/icon_arr_fwd_blue.png) no-repeat 95% center; }
+div.pager.cp ul.usedFootbtn li a{text-decoration:none; color:#013690; display:block; text-align:center; height:35px; line-height:33px;}
+div.pager.cp ul.usedFootbtn li a:hover{opacity:.7;}
+}
+
+
+article.cp section .use small { font-weight: 100; font-size: 12px; color: #003292;}
